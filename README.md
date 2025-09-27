@@ -12,6 +12,8 @@
 
 - [培养方案](docs/政策/培养方案.md)
 
-### 课程资料
+### 课程介绍
 
-- [Python](course/Python/README.md)
+| 课程名称 | 课程类别 | 学分 | 教师 |
+| --- | --- | --- | --- |
+| [Python](course/Python/README.md) | 选修课 | 2.0 | 方跃坚(副教授) |
