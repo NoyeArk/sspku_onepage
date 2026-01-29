@@ -12,13 +12,13 @@ class Config(object):
         # 自动检测任务类型：如果路径包含 /data/ 则是分类任务，否则是 NER 任务
         if "/data/" in dataset or os.path.exists(dataset + "/data/train.txt"):
             self.task_type = "classification"
-            self.model_name = "ERNIE"
-            self.train_path = dataset + "/data/train.txt"  # 训练集
-            self.dev_path = dataset + "/data/dev.txt"  # 验证集
-            self.test_path = dataset + "/data/test.txt"  # 测试集
-            self.class_list = [
-                x.strip() for x in open(dataset + "/data/class.txt").readlines()
-            ]  # 类别名单
+        self.model_name = "ERNIE"
+        self.train_path = dataset + "/data/train.txt"  # 训练集
+        self.dev_path = dataset + "/data/dev.txt"  # 验证集
+        self.test_path = dataset + "/data/test.txt"  # 测试集
+        self.class_list = [
+            x.strip() for x in open(dataset + "/data/class.txt").readlines()
+        ]  # 类别名单
             self.num_classes = len(self.class_list)  # 类别数
             self.batch_size = 128  # mini-batch大小
             self.pad_size = 32  # 每句话处理成的长度(短填长切)
@@ -77,7 +77,7 @@ class Model(nn.Module):
 
         if self.task_type == "classification":
             # 文本分类任务：使用 [CLS] token 的 pooled 输出
-            self.fc = nn.Linear(config.hidden_size, config.num_classes)
+        self.fc = nn.Linear(config.hidden_size, config.num_classes)
         else:
             # NER 任务：对每个 token 进行分类
             self.dropout = nn.Dropout(config.dropout)
@@ -102,13 +102,13 @@ class Model(nn.Module):
 
         if self.task_type == "classification":
             # 文本分类任务：使用 [CLS] token 的 pooled 输出
-            _, pooled = self.bert(
+        _, pooled = self.bert(
                 input_ids,
                 attention_mask=attention_mask,
                 output_all_encoded_layers=False,
-            )
+        )
             out = self.fc(pooled)  # [batch_size, num_classes]
-            return out
+        return out
         else:
             # NER 任务：对每个 token 进行分类
             sequence_output, _ = self.bert(

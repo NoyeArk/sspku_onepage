@@ -102,7 +102,7 @@ class Model(nn.Module):
 
         if self.task_type == "classification":
             # 文本分类任务：使用 MaxPooling 池化整个序列
-            self.maxpool = nn.MaxPool1d(config.pad_size)
+        self.maxpool = nn.MaxPool1d(config.pad_size)
             self.fc = nn.Linear(
                 config.rnn_hidden * 2 + config.hidden_size, config.num_classes
             )
@@ -151,7 +151,7 @@ class Model(nn.Module):
             rcnn_out = rcnn_out.permute(0, 2, 1)  # [batch_size, feature, seq_len]
             out = self.maxpool(rcnn_out).squeeze()  # [batch_size, feature]
             out = self.fc(out)  # [batch_size, num_classes]
-            return out
+        return out
         else:
             # NER 任务：对每个位置的拼接特征进行分类
             rcnn_out = self.dropout(rcnn_out)

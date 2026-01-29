@@ -59,3 +59,13 @@ print(f"实体标签占比: {(train_lines - train_labels['O']) / train_lines * 1
 
 
 
+
+
+
+
+
+
+
+
+
+
