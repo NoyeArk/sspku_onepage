@@ -1,0 +1,101 @@
+{
+  "victim_checkpoint": "../model/cnn_acc_90.53.pt",
+  "dataset_pkl": "../attack_data/correct_1k_dual.pkl",
+  "n_samples": 1000,
+  "success_rate": 0.008,
+  "num_success": 8,
+  "random_seed": 141,
+  "visualization_10": [
+    {
+      "pair_id": 0,
+      "index_in_dataset": 137,
+      "true_label": 3,
+      "target_label": 4,
+      "victim_pred_on_clean": 3,
+      "victim_pred_on_adv": 4,
+      "attack_success": true,
+      "orig_png": "00_idx137_y3_t4_orig.png",
+      "adv_png": "00_idx137_y3_t4_adv.png"
+    },
+    {
+      "pair_id": 1,
+      "index_in_dataset": 702,
+      "true_label": 2,
+      "target_label": 3,
+      "victim_pred_on_clean": 2,
+      "victim_pred_on_adv": 3,
+      "attack_success": true,
+      "orig_png": "01_idx702_y2_t3_orig.png",
+      "adv_png": "01_idx702_y2_t3_adv.png"
+    },
+    {
+      "pair_id": 2,
+      "index_in_dataset": 654,
+      "true_label": 2,
+      "target_label": 3,
+      "victim_pred_on_clean": 2,
+      "victim_pred_on_adv": 3,
+      "attack_success": true,
+      "orig_png": "02_idx654_y2_t3_orig.png",
+      "adv_png": "02_idx654_y2_t3_adv.png"
+    },
+    {
+      "pair_id": 3,
+      "index_in_dataset": 286,
+      "true_label": 2,
+      "target_label": 3,
+      "victim_pred_on_clean": 2,
+      "victim_pred_on_adv": 3,
+      "attack_success": true,
+      "orig_png": "03_idx286_y2_t3_orig.png",
+      "adv_png": "03_idx286_y2_t3_adv.png"
+    },
+    {
+      "pair_id": 4,
+      "index_in_dataset": 804,
+      "true_label": 8,
+      "target_label": 9,
+      "victim_pred_on_clean": 8,
+      "victim_pred_on_adv": 9,
+      "attack_success": true,
+      "orig_png": "04_idx804_y8_t9_orig.png",
+      "adv_png": "04_idx804_y8_t9_adv.png"
+    },
+    {
+      "pair_id": 5,
+      "index_in_dataset": 889,
+      "true_label": 7,
+      "target_label": 8,
+      "victim_pred_on_clean": 7,
+      "victim_pred_on_adv": 8,
+      "attack_success": true,
+      "orig_png": "05_idx889_y7_t8_orig.png",
+      "adv_png": "05_idx889_y7_t8_adv.png"
+    },
+    {
+      "pair_id": 6,
+      "index_in_dataset": 859,
+      "true_label": 2,
+      "target_label": 3,
+      "victim_pred_on_clean": 2,
+      "victim_pred_on_adv": 3,
+      "attack_success": true,
+      "orig_png": "06_idx859_y2_t3_orig.png",
+      "adv_png": "06_idx859_y2_t3_adv.png"
+    },
+    {
+      "pair_id": 7,
+      "index_in_dataset": 305,
+      "true_label": 8,
+      "target_label": 9,
+      "victim_pred_on_clean": 8,
+      "victim_pred_on_adv": 9,
+      "attack_success": true,
+      "orig_png": "07_idx305_y8_t9_orig.png",
+      "adv_png": "07_idx305_y8_t9_adv.png"
+    }
+  ],
+  "submission": "10 张原图 + 10 张对抗图见 figures/；判别类别见 predictions_table.csv",
+  "substitute_checkpoint": "../model/cnn.ckpt",
+  "skipped_victim_misclassified_clean": 0
+}

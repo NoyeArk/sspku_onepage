@@ -1,0 +1,20 @@
+{
+  "base_checkpoint": "../model/cnn_acc_90.53.pt",
+  "num_adv_samples": 1000,
+  "adv_generation": {
+    "eps": 25.0,
+    "alpha": 2.0,
+    "max_iter": 100,
+    "targeted_rule": "(y+1)%10",
+    "attack_success_rate_on_base": 0.995
+  },
+  "train_size_after_augment": 51000,
+  "hyperparams": {
+    "num_epochs": 20,
+    "batch_size": 64,
+    "learning_rate": 0.0001,
+    "rand_seed": 42
+  },
+  "test_acc_percent": 90.01,
+  "out_checkpoint": "../model/cnn_advtr.pt"
+}

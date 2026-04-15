@@ -1,0 +1,93 @@
+{
+  "checkpoint": "../model/cnn_acc_90.53.pt",
+  "pkl_path": "../attack_data/correct_1k_dual.pkl",
+  "n_samples": 1000,
+  "max_iter": 100,
+  "eps": 25.0,
+  "alpha": 2.0,
+  "success_rate": 0.996,
+  "num_success": 996,
+  "rand_seed": 42,
+  "visualization": [
+    {
+      "file_prefix": "00_idx656_y8_t9",
+      "index_in_pkl": 656,
+      "true_label": 8,
+      "target_label": 9,
+      "pred_clean": 8,
+      "pred_adv": 9
+    },
+    {
+      "file_prefix": "01_idx114_y2_t3",
+      "index_in_pkl": 114,
+      "true_label": 2,
+      "target_label": 3,
+      "pred_clean": 2,
+      "pred_adv": 3
+    },
+    {
+      "file_prefix": "02_idx25_y7_t8",
+      "index_in_pkl": 25,
+      "true_label": 7,
+      "target_label": 8,
+      "pred_clean": 7,
+      "pred_adv": 8
+    },
+    {
+      "file_prefix": "03_idx762_y7_t8",
+      "index_in_pkl": 762,
+      "true_label": 7,
+      "target_label": 8,
+      "pred_clean": 7,
+      "pred_adv": 8
+    },
+    {
+      "file_prefix": "04_idx282_y5_t6",
+      "index_in_pkl": 282,
+      "true_label": 5,
+      "target_label": 6,
+      "pred_clean": 5,
+      "pred_adv": 6
+    },
+    {
+      "file_prefix": "05_idx251_y9_t0",
+      "index_in_pkl": 251,
+      "true_label": 9,
+      "target_label": 0,
+      "pred_clean": 9,
+      "pred_adv": 0
+    },
+    {
+      "file_prefix": "06_idx228_y5_t6",
+      "index_in_pkl": 228,
+      "true_label": 5,
+      "target_label": 6,
+      "pred_clean": 5,
+      "pred_adv": 6
+    },
+    {
+      "file_prefix": "07_idx142_y4_t5",
+      "index_in_pkl": 142,
+      "true_label": 4,
+      "target_label": 5,
+      "pred_clean": 4,
+      "pred_adv": 5
+    },
+    {
+      "file_prefix": "08_idx757_y7_t8",
+      "index_in_pkl": 757,
+      "true_label": 7,
+      "target_label": 8,
+      "pred_clean": 7,
+      "pred_adv": 8
+    },
+    {
+      "file_prefix": "09_idx104_y1_t2",
+      "index_in_pkl": 104,
+      "true_label": 1,
+      "target_label": 2,
+      "pred_clean": 1,
+      "pred_adv": 2
+    }
+  ]
+}

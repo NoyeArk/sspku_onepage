@@ -1,0 +1,12 @@
+{
+  "checkpoint": "../model/cnn_acc_90.53.pt",
+  "pkl_path": "../attack_data/correct_1k.pkl",
+  "n_samples": 1000,
+  "max_iter": 100,
+  "eps": 25.0,
+  "alpha": 2.0,
+  "success_rate": 0.995,
+  "num_success": 995,
+  "rand_seed": 42,
+  "visualization": []
+}

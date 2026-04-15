@@ -1,0 +1,44 @@
+{
+  "adversarial_training": {
+    "script": "Fashion-MNIST/code/adversarial_train.py",
+    "base_checkpoint": "model/cnn_acc_90.53.pt",
+    "new_checkpoint": "model/cnn_advtr.pt",
+    "train_adv_samples": 1000,
+    "attack_on_train_eps_alpha_iter": [25.0, 2.0, 100],
+    "attack_success_rate_on_base_model": 0.995,
+    "meta_json": "白盒攻击/adversarial_train_meta.json"
+  },
+  "test_accuracy_percent": {
+    "old_classifier_cnn_acc_90_53": 90.53,
+    "new_classifier_cnn_advtr": 90.01
+  },
+  "evaluation_pkl": {
+    "path": "attack_data/correct_1k_dual.pkl",
+    "generator": "Fashion-MNIST/code/make_dual_correct_pkl.py"
+  },
+  "whitebox_targeted_ifgsm_same_hyperparams": {
+    "eps": 25.0,
+    "alpha": 2.0,
+    "max_iter": 100,
+    "target_rule": "(y+1)%10",
+    "old_classifier_success_rate": 0.996,
+    "old_classifier_num_success": 996,
+    "new_classifier_success_rate": 0.993,
+    "new_classifier_num_success": 993,
+    "detail_json_old": "./whitebox_baseline/dual_1k_metrics.json",
+    "detail_json_new": "./whitebox_on_advtrained/dual_1k_metrics.json",
+    "figures_10_old": "./whitebox_baseline/figures_dual/",
+    "figures_10_new": "./whitebox_on_advtrained/figures_dual/"
+  },
+  "blackbox_same_protocol_as_chapter3c": {
+    "substitute_for_own_victim": "model/cnn.ckpt",
+    "old_victim_success_rate": 0.008,
+    "old_victim_num_success": 8,
+    "new_victim_success_rate": 0.008,
+    "new_victim_num_success": 8,
+    "detail_json_old": "./01_blackbox_baseline_old_ckpt/metrics.json",
+    "detail_json_new": "./02_blackbox_on_advtrained/metrics.json",
+    "figures_10_old": "./01_blackbox_baseline_old_ckpt/figures/",
+    "figures_10_new": "./02_blackbox_on_advtrained/figures/"
+  }
+}
