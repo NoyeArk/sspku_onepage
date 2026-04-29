@@ -215,7 +215,8 @@ def collate_fn(batch):
         pad_len = src_len - src.size(0)
         padded = torch.cat([src, torch.zeros(pad_len, dtype=torch.long)])
         padded_srcs.append(padded)
-        src_masks.append(torch.cat([torch.ones(src.size(0)), torch.zeros(pad_len)]).bool())
+        # PyTorch Transformer: True = IGNORE position (padding), False = attend
+        src_masks.append(torch.cat([torch.zeros(src.size(0)), torch.ones(pad_len)]).bool())
     
     for tgt in tgts:
         pad_len = tgt_len - tgt.size(0)

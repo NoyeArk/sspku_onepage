@@ -126,6 +126,12 @@ class Seq2SeqTransformer(nn.Module):
         for p in self.parameters():
             if p.dim() > 1:
                 nn.init.xavier_uniform_(p)
+        # 更保守地初始化输出层和 embedding
+        for module in [self.encoder, self.decoder]:
+            nn.init.normal_(module.embedding.weight, mean=0, std=0.02)
+        nn.init.normal_(self.decoder.fc_out.weight, mean=0, std=0.02)
+        if self.decoder.fc_out.bias is not None:
+            nn.init.zeros_(self.decoder.fc_out.bias)
     
     def generate_square_subsequent_mask(self, sz):
         """Generate causal mask for decoder."""
@@ -139,7 +145,7 @@ class Seq2SeqTransformer(nn.Module):
         Args:
             src: (batch, src_len) - Source tokens (NL)
             tgt: (batch, tgt_len) - Target tokens (Code)
-            src_mask: (batch, src_len) - Source padding mask
+            src_mask: (batch, src_len) - Source padding mask (True=padding, ignore)
         
         Returns:
             logits: (batch, tgt_len, tgt_vocab_size)
@@ -151,11 +157,15 @@ class Seq2SeqTransformer(nn.Module):
         tgt_len = tgt.size(1)
         tgt_mask = self.generate_square_subsequent_mask(tgt_len).to(tgt.device)
         
+        # Generate target padding mask (True = padding positions)
+        tgt_key_padding_mask = (tgt == 0)  # PAD_TOKEN_IDX = 0
+        
         # Decode
         logits = self.decoder(
             tgt, 
             memory,
             tgt_mask=tgt_mask,
+            tgt_key_padding_mask=tgt_key_padding_mask,
             memory_key_padding_mask=src_mask
         )
         

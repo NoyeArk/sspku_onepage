@@ -28,7 +28,19 @@ def set_device():
         return torch.device('cpu')
 
 
-def train_epoch(model, dataloader, optimizer, criterion, device, tgt_vocab):
+def get_lr_scheduler(optimizer, warmup_steps, d_model):
+    """Learning rate scheduler with warmup (from Transformer paper)."""
+    def lr_lambda(current_step):
+        if current_step == 0:
+            return 0
+        warmup = min(current_step, warmup_steps) / warmup_steps
+        decay = 1.0 / (current_step ** 0.5)
+        return min(warmup, decay)
+    
+    return torch.optim.lr_scheduler.LambdaLR(optimizer, lr_lambda)
+
+
+def train_epoch(model, dataloader, optimizer, criterion, device, tgt_vocab, scheduler=None):
     """Train for one epoch."""
     model.train()
     total_loss = 0
@@ -54,7 +66,16 @@ def train_epoch(model, dataloader, optimizer, criterion, device, tgt_vocab):
         optimizer.zero_grad()
         loss.backward()
         torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+        
         optimizer.step()
+        if scheduler is not None:
+            scheduler.step()
+        
+        total_loss += loss.item()
+        
+        optimizer.step()
+        if scheduler is not None:
+            scheduler.step()
         
         total_loss += loss.item()
         n_batches += 1
@@ -338,8 +359,15 @@ def train(args):
     
     # Training setup
     criterion = nn.CrossEntropyLoss(ignore_index=tgt_vocab.PAD_TOKEN_IDX)
-    optimizer = AdamW(model.parameters(), lr=args.learning_rate, weight_decay=0.01)
-    scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=2)
+    optimizer = AdamW(model.parameters(), lr=2e-4, weight_decay=0.01, eps=1e-8)
+
+    # Warmup scheduler: warmup for ~10% of training steps
+    num_training_steps = len(train_loader) * args.num_epochs
+    warmup_steps = max(100, num_training_steps // 10)
+    lr_scheduler = get_lr_scheduler(optimizer, warmup_steps, args.d_model)
+    
+    # ReduceLROnPlateau 作为辅助（用于验证集）
+    scheduler_plateau = ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=2)
     
     # Training loop
     train_losses = []
@@ -354,7 +382,7 @@ def train(args):
         epoch_start = time.time()
         
         # Train
-        train_loss = train_epoch(model, train_loader, optimizer, criterion, device, tgt_vocab)
+        train_loss = train_epoch(model, train_loader, optimizer, criterion, device, tgt_vocab, scheduler=lr_scheduler)
         train_losses.append(train_loss)
         
         # Validate
@@ -368,8 +396,8 @@ def train(args):
         print(f"  Val Loss: {val_loss:.4f}")
         print(f"  Time: {epoch_time:.1f}s")
         
-        # Learning rate scheduling
-        scheduler.step(val_loss)
+        # Learning rate scheduling (plateau on validation loss)
+        scheduler_plateau.step(val_loss)
         
         # Save best model
         if val_loss < best_val_loss:
@@ -422,10 +450,10 @@ def generate_predictions(args):
     src_vocab = Vocabulary()
     tgt_vocab = Vocabulary()
     src_vocab.token2idx = checkpoint['src_vocab']
-    src_vocab.idx2token = {int(k): v for k, v in checkpoint['src_vocab'].items()}
+    src_vocab.idx2token = {v: k for k, v in checkpoint['src_vocab'].items()}
     src_vocab.n_tokens = len(src_vocab.token2idx)
     tgt_vocab.token2idx = checkpoint['tgt_vocab']
-    tgt_vocab.idx2token = {int(k): v for k, v in checkpoint['tgt_vocab'].items()}
+    tgt_vocab.idx2token = {v: k for k, v in checkpoint['tgt_vocab'].items()}
     tgt_vocab.n_tokens = len(tgt_vocab.token2idx)
     
     # Create model
@@ -511,21 +539,21 @@ def main():
     parser.add_argument('--output_dir', type=str, default='./output', help='Output directory')
     
     # Model hyperparameters
-    parser.add_argument('--d_model', type=int, default=256, help='Model dimension')
+    parser.add_argument('--d_model', type=int, default=512, help='Model dimension')
     parser.add_argument('--nhead', type=int, default=8, help='Number of attention heads')
-    parser.add_argument('--num_layers', type=int, default=3, help='Number of layers')
-    parser.add_argument('--dim_feedforward', type=int, default=512, help='Feedforward dimension')
+    parser.add_argument('--num_layers', type=int, default=4, help='Number of layers')
+    parser.add_argument('--dim_feedforward', type=int, default=1024, help='Feedforward dimension')
     parser.add_argument('--dropout', type=float, default=0.1, help='Dropout rate')
     parser.add_argument('--max_len', type=int, default=100, help='Maximum sequence length')
-    
+
     # Training hyperparameters
     parser.add_argument('--batch_size', type=int, default=64, help='Batch size')
-    parser.add_argument('--num_epochs', type=int, default=10, help='Number of epochs')
+    parser.add_argument('--num_epochs', type=int, default=20, help='Number of epochs')
     parser.add_argument('--learning_rate', type=float, default=0.0005, help='Learning rate')
-    
+
     # Decoding
-    parser.add_argument('--decode', type=str, default='greedy', choices=['greedy', 'beam'], help='Decoding method')
-    parser.add_argument('--beam_size', type=int, default=3, help='Beam size for beam search')
+    parser.add_argument('--decode', type=str, default='beam', choices=['greedy', 'beam'], help='Decoding method')
+    parser.add_argument('--beam_size', type=int, default=5, help='Beam size for beam search')
     
     # Other
     parser.add_argument('--mode', type=str, default='train', choices=['train', 'predict', 'both'], help='Mode')
@@ -537,7 +565,7 @@ def main():
     os.makedirs(args.output_dir, exist_ok=True)
     
     if args.mode in ['train', 'both']:
-        train_losses, val_losses = train(args)
+        _, _, _, train_losses, val_losses = train(args)
     
     if args.mode in ['predict', 'both']:
         em, bleu = generate_predictions(args)
