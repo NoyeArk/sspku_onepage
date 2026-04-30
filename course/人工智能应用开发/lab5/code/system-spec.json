@@ -1,0 +1,471 @@
+{
+  "requirement": "Build a frontend/backend system where students submit lab work and teachers review, score, approve, or reject submissions.",
+  "app_name": "LabFlow",
+  "app_slug": "labflow",
+  "entity_name": "lab_submission",
+  "fields": [
+    "id",
+    "student_id",
+    "lab_id",
+    "submitted_at",
+    "title",
+    "description",
+    "attachment_urls",
+    "status"
+  ],
+  "statuses": [
+    "draft",
+    "submitted",
+    "under_review",
+    "approved",
+    "rejected",
+    "needs_resubmission"
+  ],
+  "metrics": [
+    "Total Submissions (today/7d)",
+    "Pending Reviews",
+    "Average Score",
+    "Approval Rate",
+    "Average Review Time",
+    "Resubmission Count"
+  ],
+  "list_columns": [
+    "Submission ID",
+    "Student Name",
+    "Lab Title",
+    "Status",
+    "Score",
+    "Submitted At"
+  ],
+  "detail_sections": [
+    "Submission Header (title, status badge)",
+    "Student Information",
+    "Lab Information",
+    "Attachments Preview",
+    "Review History Timeline"
+  ],
+  "review_actions": [
+    "add_score",
+    "add_feedback",
+    "set_decision",
+    "request_resubmission"
+  ],
+  "seed_records": [
+    {
+      "id": "subm_001",
+      "student_id": "stu_101",
+      "lab_id": "lab_01",
+      "title": "Acid‑Base Titration Report",
+      "description": "Initial draft of titration experiment.",
+      "attachment_urls": [
+        "https://example.com/files/subm_001/report.pdf"
+      ],
+      "status": "submitted",
+      "created_at": "2026-04-01T09:12:00Z",
+      "submitted_at": "2026-04-01T09:15:00Z",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "score": null,
+      "max_score": 100,
+      "feedback": null,
+      "decision": null,
+      "resubmit_reason": null,
+      "history_log": [
+        {
+          "event": "created",
+          "by": "stu_101",
+          "at": "2026-04-01T09:12:00Z"
+        },
+        {
+          "event": "submitted",
+          "by": "stu_101",
+          "at": "2026-04-01T09:15:00Z"
+        }
+      ]
+    },
+    {
+      "id": "subm_002",
+      "student_id": "stu_102",
+      "lab_id": "lab_02",
+      "title": "Spectroscopy Analysis",
+      "description": "Final submission after revisions.",
+      "attachment_urls": [
+        "https://example.com/files/subm_002/report.pdf"
+      ],
+      "status": "graded",
+      "created_at": "2026-03-28T14:05:00Z",
+      "submitted_at": "2026-03-28T14:10:00Z",
+      "reviewer_id": "tea_201",
+      "reviewed_at": "2026-03-28T16:30:00Z",
+      "score": 88,
+      "max_score": 100,
+      "feedback": "Well done, minor formatting issues fixed.",
+      "decision": "approved",
+      "resubmit_reason": null,
+      "history_log": [
+        {
+          "event": "created",
+          "by": "stu_102",
+          "at": "2026-03-28T14:05:00Z"
+        },
+        {
+          "event": "submitted",
+          "by": "stu_102",
+          "at": "2026-03-28T14:10:00Z"
+        },
+        {
+          "event": "reviewed",
+          "by": "tea_201",
+          "at": "2026-03-28T16:30:00Z"
+        },
+        {
+          "event": "graded",
+          "by": "tea_201",
+          "at": "2026-03-28T16:30:00Z"
+        }
+      ]
+    }
+  ],
+  "quick_filters": [
+    "Status",
+    "Lab",
+    "Student",
+    "Reviewer",
+    "Score Range"
+  ],
+  "sidebar_sections": [
+    "Dashboard",
+    "My Submissions",
+    "Submit Lab Work",
+    "Review Queue",
+    "Lab Catalog",
+    "Grades"
+  ],
+  "secondary_panels": [
+    "Real‑time Activity Feed",
+    "Upcoming Lab Deadlines",
+    "Top Performing Students",
+    "Notifications & Alerts"
+  ],
+  "filters": [
+    "status",
+    "lab_id",
+    "student_id",
+    "reviewer_id"
+  ],
+  "workflow_steps": [
+    "Create lab and criteria",
+    "Student drafts submission",
+    "Student submits work",
+    "Teacher picks up for review",
+    "Teacher evaluates and scores",
+    "Teacher approves/rejects/requests resubmission",
+    "Student resubmits if requested",
+    "Final grading and closure"
+  ],
+  "planner": {
+    "app_name": "LabFlow",
+    "summary": "A full-stack submission and review system where students upload lab work, and teachers review, score, approve, or reject with status tracking and audit trails.",
+    "roles": [
+      "student",
+      "teacher",
+      "admin"
+    ],
+    "primary_entity": "lab_submission",
+    "primary_fields": [
+      "id",
+      "student_id",
+      "lab_id",
+      "submitted_at",
+      "title",
+      "description",
+      "attachment_urls",
+      "status",
+      "reviewer_id",
+      "reviewed_at",
+      "score",
+      "max_score",
+      "feedback",
+      "decision",
+      "resubmit_reason",
+      "history_log"
+    ],
+    "statuses": [
+      "draft",
+      "submitted",
+      "under_review",
+      "approved",
+      "rejected",
+      "needs_resubmission",
+      "graded"
+    ],
+    "workflow_steps": [
+      "Create lab and criteria",
+      "Student drafts submission",
+      "Student submits work",
+      "Teacher picks up for review",
+      "Teacher evaluates and scores",
+      "Teacher approves/rejects/requests resubmission",
+      "Student resubmits if requested",
+      "Final grading and closure"
+    ],
+    "dashboard_metrics": [
+      "Submissions per lab",
+      "Average score",
+      "Pending reviews",
+      "Approval rate",
+      "Average review time",
+      "Resubmission count",
+      "Recently graded submissions",
+      "Late submissions"
+    ],
+    "sidebar_sections": [
+      "Dashboard",
+      "My Submissions",
+      "Submit Lab Work",
+      "Review Queue",
+      "Lab Catalog",
+      "Grades",
+      "Notifications",
+      "Settings"
+    ]
+  },
+  "backend": {
+    "service_name": "LabFlow",
+    "endpoints": [
+      "POST /api/v1/submissions                # student creates or updates a draft",
+      "POST /api/v1/submissions/{id}/submit    # student moves draft to submitted status",
+      "GET  /api/v1/submissions?filter={params}# list submissions (student view, teacher queue, admin)",
+      "GET  /api/v1/submissions/{id}            # retrieve full submission with history",
+      "PATCH /api/v1/submissions/{id}          # teacher adds review data (score, feedback, decision)",
+      "POST /api/v1/submissions/{id}/resubmit  # student resubmits after request",
+      "GET  /api/v1/metrics                     # dashboard aggregates",
+      "GET  /api/v1/labs                        # catalog of labs",
+      "GET  /api/v1/users/me                    # profile / role info"
+    ],
+    "storage_fields": [
+      "id",
+      "student_id",
+      "lab_id",
+      "title",
+      "description",
+      "attachment_urls",
+      "status",
+      "created_at",
+      "updated_at",
+      "submitted_at",
+      "reviewer_id",
+      "reviewed_at",
+      "score",
+      "max_score",
+      "feedback",
+      "decision",
+      "resubmit_reason",
+      "history_log"
+    ],
+    "seed_records": [
+      {
+        "id": "subm_001",
+        "student_id": "stu_101",
+        "lab_id": "lab_01",
+        "title": "Acid‑Base Titration Report",
+        "description": "Initial draft of titration experiment.",
+        "attachment_urls": [
+          "https://example.com/files/subm_001/report.pdf"
+        ],
+        "status": "submitted",
+        "created_at": "2026-04-01T09:12:00Z",
+        "submitted_at": "2026-04-01T09:15:00Z",
+        "reviewer_id": null,
+        "reviewed_at": null,
+        "score": null,
+        "max_score": 100,
+        "feedback": null,
+        "decision": null,
+        "resubmit_reason": null,
+        "history_log": [
+          {
+            "event": "created",
+            "by": "stu_101",
+            "at": "2026-04-01T09:12:00Z"
+          },
+          {
+            "event": "submitted",
+            "by": "stu_101",
+            "at": "2026-04-01T09:15:00Z"
+          }
+        ]
+      },
+      {
+        "id": "subm_002",
+        "student_id": "stu_102",
+        "lab_id": "lab_02",
+        "title": "Spectroscopy Analysis",
+        "description": "Final submission after revisions.",
+        "attachment_urls": [
+          "https://example.com/files/subm_002/report.pdf"
+        ],
+        "status": "graded",
+        "created_at": "2026-03-28T14:05:00Z",
+        "submitted_at": "2026-03-28T14:10:00Z",
+        "reviewer_id": "tea_201",
+        "reviewed_at": "2026-03-28T16:30:00Z",
+        "score": 88,
+        "max_score": 100,
+        "feedback": "Well done, minor formatting issues fixed.",
+        "decision": "approved",
+        "resubmit_reason": null,
+        "history_log": [
+          {
+            "event": "created",
+            "by": "stu_102",
+            "at": "2026-03-28T14:05:00Z"
+          },
+          {
+            "event": "submitted",
+            "by": "stu_102",
+            "at": "2026-03-28T14:10:00Z"
+          },
+          {
+            "event": "reviewed",
+            "by": "tea_201",
+            "at": "2026-03-28T16:30:00Z"
+          },
+          {
+            "event": "graded",
+            "by": "tea_201",
+            "at": "2026-03-28T16:30:00Z"
+          }
+        ]
+      }
+    ],
+    "review_actions": [
+      "add_score",
+      "add_feedback",
+      "set_decision",
+      "request_resubmission",
+      "approve",
+      "reject",
+      "close_submission"
+    ],
+    "validation_rules": [
+      "title must be non‑empty string",
+      "attachment_urls must be array of valid URLs",
+      "score must be integer between 0 and max_score when decision is approved or rejected",
+      "decision allowed values: approved, rejected, needs_resubmission",
+      "status transitions must follow workflow: draft -> submitted -> under_review -> (approved|rejected|needs_resubmission) -> graded (if approved)",
+      "resubmit_reason required when decision is needs_resubmission",
+      "reviewer_id required for status under_review, approved, rejected, or graded"
+    ],
+    "filters": [
+      "status",
+      "lab_id",
+      "student_id",
+      "reviewer_id",
+      "submitted_at[gte|lte]",
+      "reviewed_at[gte|lte]",
+      "score[gte|lte]"
+    ]
+  },
+  "frontend": {
+    "app_title": "LabFlow Admin Dashboard",
+    "views": [
+      "Dashboard Overview",
+      "Submission Management",
+      "Lab Catalog",
+      "User Management",
+      "Analytics & Reports",
+      "Settings"
+    ],
+    "form_fields": [
+      "Lab ID",
+      "Lab Title",
+      "Description",
+      "Maximum Score",
+      "Submission Deadline",
+      "Criteria Document URL",
+      "Active (toggle)",
+      "Teacher Assignment",
+      "Notification Template"
+    ],
+    "list_columns": [
+      "Submission ID",
+      "Student Name",
+      "Lab Title",
+      "Status",
+      "Score",
+      "Submitted At",
+      "Reviewed By",
+      "Reviewed At",
+      "Actions"
+    ],
+    "detail_sections": [
+      "Submission Header (title, status badge)",
+      "Student Information",
+      "Lab Information",
+      "Attachments Preview",
+      "Review History Timeline",
+      "Score & Feedback Panel",
+      "Decision & Resubmission Reason",
+      "Audit Log"
+    ],
+    "primary_actions": [
+      "Create New Lab",
+      "Export Submissions CSV",
+      "Bulk Update Status",
+      "Send Reminder",
+      "Generate Report",
+      "Configure Notification Settings"
+    ],
+    "dashboard_cards": [
+      "Total Submissions (today/7d)",
+      "Pending Reviews",
+      "Average Score",
+      "Approval Rate",
+      "Average Review Time",
+      "Resubmission Count",
+      "Late Submissions",
+      "Recently Graded (list)"
+    ],
+    "quick_filters": [
+      "Status",
+      "Lab",
+      "Student",
+      "Reviewer",
+      "Score Range",
+      "Submission Date",
+      "Review Date"
+    ],
+    "secondary_panels": [
+      "Real‑time Activity Feed",
+      "Upcoming Lab Deadlines",
+      "Top Performing Students",
+      "Notifications & Alerts",
+      "System Health & API Status"
+    ]
+  },
+  "reviewer": {
+    "review_summary": "The planner, backend, and frontend specifications are well aligned and collectively describe a coherent LabFlow system for student lab submissions and teacher reviews. Core entities, workflow, API contracts, data model, UI components, and metrics are consistently defined, enabling implementation of the required functionality.",
+    "strengths": [
+      "Clear definition of roles, statuses, and workflow steps that match across planner and backend validation rules.",
+      "Comprehensive REST API covering creation, submission, review, resubmission, and metrics retrieval.",
+      "Consistent data fields between planner primary_fields and backend storage_fields, supporting audit history.",
+      "Frontend UI outlines necessary dashboards, forms, tables, and detail views to manage labs, submissions, and analytics.",
+      "Seed data and validation rules provide concrete examples for testing and ensure data integrity."
+    ],
+    "risks": [
+      "Frontend focuses on admin/dashboard views and lacks explicit student and teacher interaction screens (e.g., submission form, review form).",
+      "The API does not include endpoints for managing labs, users, or authentication, which are implied by the planner and UI.",
+      "Decision values include \"needs_resubmission\" but backend status list uses \"needs_resubmission\"; ensure consistent naming across all layers.",
+      "No explicit handling of file uploads (attachment URLs) in the API; front‑end may need a separate upload service.",
+      "Audit/logging details are mentioned but no endpoint for retrieving raw audit logs beyond history_log field."
+    ],
+    "adjustments": [
+      "Add frontend view specifications for Student Submission Form and Teacher Review Form, including required fields and actions.",
+      "Introduce backend endpoints for Lab management (GET/POST/PUT /api/v1/labs) and User management (auth, role assignment).",
+      "Standardize decision/status naming (e.g., use \"needs_resubmission\" uniformly) across planner, backend, and frontend.",
+      "Specify an upload endpoint (e.g., POST /api/v1/submissions/{id}/attachments) or integrate with a storage service for handling attachment files.",
+      "Provide an endpoint for detailed audit logs (e.g., GET /api/v1/submissions/{id}/audit) if more granular traceability is required."
+    ]
+  }
+}

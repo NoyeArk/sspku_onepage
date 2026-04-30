@@ -1,0 +1,268 @@
+{
+  "app_name": "LabFlow",
+  "entity_name": "实验提交",
+  "fields": [
+    {
+      "label": "提交编号",
+      "key": "id",
+      "type": "text",
+      "editable": false,
+      "multiline": false
+    },
+    {
+      "label": "学生编号",
+      "key": "student_id",
+      "type": "text",
+      "editable": true,
+      "multiline": false
+    },
+    {
+      "label": "实验编号",
+      "key": "lab_id",
+      "type": "text",
+      "editable": true,
+      "multiline": false
+    },
+    {
+      "label": "提交时间",
+      "key": "submitted_at",
+      "type": "text",
+      "editable": true,
+      "multiline": false
+    },
+    {
+      "label": "标题",
+      "key": "title",
+      "type": "text",
+      "editable": true,
+      "multiline": false
+    },
+    {
+      "label": "说明",
+      "key": "description",
+      "type": "text",
+      "editable": true,
+      "multiline": true
+    },
+    {
+      "label": "附件链接",
+      "key": "attachment_urls",
+      "type": "text",
+      "editable": true,
+      "multiline": false
+    },
+    {
+      "label": "状态",
+      "key": "status",
+      "type": "text",
+      "editable": false,
+      "multiline": false
+    }
+  ],
+  "create_fields": [
+    {
+      "label": "学生编号",
+      "key": "student_id",
+      "type": "text",
+      "editable": true,
+      "multiline": false
+    },
+    {
+      "label": "实验编号",
+      "key": "lab_id",
+      "type": "text",
+      "editable": true,
+      "multiline": false
+    },
+    {
+      "label": "提交时间",
+      "key": "submitted_at",
+      "type": "text",
+      "editable": true,
+      "multiline": false
+    },
+    {
+      "label": "标题",
+      "key": "title",
+      "type": "text",
+      "editable": true,
+      "multiline": false
+    },
+    {
+      "label": "说明",
+      "key": "description",
+      "type": "text",
+      "editable": true,
+      "multiline": true
+    },
+    {
+      "label": "附件链接",
+      "key": "attachment_urls",
+      "type": "text",
+      "editable": true,
+      "multiline": false
+    }
+  ],
+  "statuses": [
+    "draft",
+    "submitted",
+    "under_review",
+    "approved",
+    "rejected",
+    "needs_resubmission"
+  ],
+  "metrics": [
+    "提交总数（今日/近7天）",
+    "待评审数量",
+    "平均分",
+    "通过率",
+    "平均评审时长",
+    "重新提交次数"
+  ],
+  "list_columns": [
+    "提交编号",
+    "学生姓名",
+    "实验标题",
+    "状态",
+    "分数",
+    "提交时间"
+  ],
+  "filters": [
+    "状态",
+    "实验编号",
+    "学生编号",
+    "评审教师编号"
+  ],
+  "workflow_steps": [
+    "创建实验与评分标准",
+    "学生草拟提交",
+    "学生提交作业",
+    "教师领取评审",
+    "教师评估并打分",
+    "教师通过、驳回或要求重交",
+    "学生按要求重新提交",
+    "最终评分并归档"
+  ],
+  "records": [
+    {
+      "id": "实验提交_5",
+      "status": "approved",
+      "created_at": "刚刚生成",
+      "reviewed_at": "刚刚生成",
+      "reviewer": "北京大学",
+      "review_comment": "good",
+      "student_id": "2501210793",
+      "lab_id": "20260430",
+      "submitted_at": "2026-04-30",
+      "title": "测试",
+      "description": "",
+      "attachment_urls": ""
+    },
+    {
+      "id": "subm_001",
+      "status": "submitted",
+      "created_at": "2026-04-01T09:12:00Z",
+      "reviewed_at": null,
+      "reviewer": "",
+      "review_comment": "",
+      "student_id": "stu_101",
+      "lab_id": "lab_01",
+      "submitted_at": "2026-04-01T09:15:00Z",
+      "title": "酸碱滴定实验报告",
+      "description": "滴定实验的初始草稿。",
+      "attachment_urls": [
+        "https://example.com/files/subm_001/report.pdf"
+      ],
+      "reviewer_id": null,
+      "score": null,
+      "max_score": 100,
+      "feedback": null,
+      "decision": null,
+      "resubmit_reason": null,
+      "history_log": [
+        {
+          "event": "created",
+          "by": "stu_101",
+          "at": "2026-04-01T09:12:00Z"
+        },
+        {
+          "event": "submitted",
+          "by": "stu_101",
+          "at": "2026-04-01T09:15:00Z"
+        }
+      ]
+    },
+    {
+      "id": "subm_002",
+      "status": "graded",
+      "created_at": "2026-03-28T14:05:00Z",
+      "reviewed_at": "2026-03-28T16:30:00Z",
+      "reviewer": "",
+      "review_comment": "",
+      "student_id": "stu_102",
+      "lab_id": "lab_02",
+      "submitted_at": "2026-03-28T14:10:00Z",
+      "title": "光谱分析实验报告",
+      "description": "修订后的最终提交。",
+      "attachment_urls": [
+        "https://example.com/files/subm_002/report.pdf"
+      ],
+      "reviewer_id": "tea_201",
+      "score": 88,
+      "max_score": 100,
+      "feedback": "完成度较好，已修正少量格式问题。",
+      "decision": "approved",
+      "resubmit_reason": null,
+      "history_log": [
+        {
+          "event": "created",
+          "by": "stu_102",
+          "at": "2026-03-28T14:05:00Z"
+        },
+        {
+          "event": "submitted",
+          "by": "stu_102",
+          "at": "2026-03-28T14:10:00Z"
+        },
+        {
+          "event": "reviewed",
+          "by": "tea_201",
+          "at": "2026-03-28T16:30:00Z"
+        },
+        {
+          "event": "graded",
+          "by": "tea_201",
+          "at": "2026-03-28T16:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "示例提交 3",
+      "status": "draft",
+      "created_at": "2026-04-23 10:02",
+      "reviewed_at": "2026-04-23 16:12",
+      "reviewer": "评审教师 2",
+      "review_comment": "已通过仪表盘流程完成评审与更新。",
+      "student_id": "学生编号示例 3",
+      "lab_id": "实验编号示例 3",
+      "submitted_at": "提交时间示例 3",
+      "title": "标题示例 3",
+      "description": "说明示例 3",
+      "attachment_urls": "附件链接示例 3"
+    },
+    {
+      "id": "示例提交 4",
+      "status": "under_review",
+      "created_at": "2026-04-24 10:03",
+      "reviewed_at": "2026-04-24 16:13",
+      "reviewer": "评审教师 3",
+      "review_comment": "已通过仪表盘流程完成评审与更新。",
+      "student_id": "学生编号示例 4",
+      "lab_id": "实验编号示例 4",
+      "submitted_at": "提交时间示例 4",
+      "title": "标题示例 4",
+      "description": "说明示例 4",
+      "attachment_urls": "附件链接示例 4"
+    }
+  ]
+}
