@@ -1,0 +1,1604 @@
+
+[分析日志] 第1跳检索分析：
+样本1:
+  Query: In what city does the most successful American and international five-and-dime business have a historic building?
+  Gold Answer: Watertown, New York
+  Retrieved Titles: ['American Copper Buildings', 'American Copper Buildings', 'Blair Historic District', 'Liberty Place', 'Liberty Place']
+样本2:
+  Query: Where did the designer of the Van de Graaff generator teach at?
+  Gold Answer: Princeton University and Massachusetts Institute of Technology
+  Retrieved Titles: ['Van de Graaff generator', 'Westinghouse Atom Smasher', 'William T. Van de Graaff', 'William T. Van de Graaff', 'Louis van Praag']
+样本3:
+  Query: Ælfgifu of Exeter and Ælfgifu of Shaftesbury are both known for being what?
+  Gold Answer: saint
+  Retrieved Titles: ['Ælfgifu of Exeter', 'Ælfgifu of Shaftesbury', 'Eardwulf of Kent', 'Ælfric of Abingdon', 'Æthelweard (historian)']
+样本4:
+  Query: Anthony Avent played basketball fo a High School that is located in a city approcimately 8 mi west of where?
+  Gold Answer: lower Manhattan
+  Retrieved Titles: ['Anthony Avent', 'Mike Edwards (basketball)', 'A. Philip Randolph Campus High School', 'A. Philip Randolph Campus High School', 'A. Philip Randolph Campus High School']
+样本5:
+  Query: Which nationality is the international footballer, born 20 March 1984, who made his breakthrough La Liga debut in the 2002–03 Atlético Madrid season, scoring 13 league goals as a teenager?
+  Gold Answer: Spanish
+  Retrieved Titles: ['2002–03 Atlético Madrid season', 'José Daniel Valencia', 'Fernando Torres', 'Sergio Torres', 'David Villa']
+样本6:
+  Query: What was the creator of the Moshulu Parkway known as?
+  Gold Answer: "master builder" of mid-20th century New York City
+  Retrieved Titles: ['Sunken Meadow State Parkway', 'Sunken Meadow State Parkway', 'Sunken Meadow State Parkway', 'Parkway Man', 'Bert T. Combs Mountain Parkway']
+样本7:
+  Query: Who created the series in which Liza Weil played Bonnie Winterbottom?
+  Gold Answer: Peter Nowalk
+  Retrieved Titles: ['Bonnie Winterbottom', 'Liza Weil', 'Lacey Chabert', 'Liza Minnelli discography', 'Bonnie (TV series)']
+样本8:
+  Query: Which was formed first, Noori or Test Icicles?
+  Gold Answer: Noori
+  Retrieved Titles: ['Test Icicles', 'Test Icicles', 'For Screening Purposes Only', 'For Screening Purposes Only', 'Nakam']
+样本9:
+  Query: Which film was produced first, Dangal or The Man from Snowy River II?
+  Gold Answer: The Man from Snowy River II
+  Retrieved Titles: ['The Man from Snowy River II', 'The Man from Snowy River II', 'Return to Snowy River', 'Return to Snowy River', 'Bruce Rowland']
+样本10:
+  Query: The Clavivox was invented by an American composer who was born Harry Warnow in what year?
+  Gold Answer: 1908
+  Retrieved Titles: ['Clavivox', 'Raymond Scott', 'Mark Warnow', 'Hans von Bülow', 'Ennio Bolognini']
+样本11:
+  Query: SWX Right Now airs on the station that broadcasts on what channel in Billings, Montana?
+  Gold Answer: 8
+  Retrieved Titles: ['SWX Right Now', 'KXMD-TV', 'WYPX-TV', 'WYPX-TV', 'WWVA (AM)']
+样本12:
+  Query: Which was founded first, University of California, Santa Barbara or Hamdard University?
+  Gold Answer: University of California, Santa Barbara
+  Retrieved Titles: ['University of California, Berkeley', 'Santa Barbara City College', 'Santa Barbara City College', 'University of California', 'California State University, San Bernardino']
+样本13:
+  Query: Does MedStar Washington Hospital Center or Children's National Medical Center have more beds?
+  Gold Answer: MedStar Washington Hospital Center
+  Retrieved Titles: ['MedStar Washington Hospital Center', 'MedStar Washington Hospital Center', "Children's National Medical Center", 'MedStar Georgetown University Hospital', 'MedStar Georgetown University Hospital']
+样本14:
+  Query: Olivia DeJonge starred in an American horror film directed by Shyamalan called what
+  Gold Answer: The Visit
+  Retrieved Titles: ['The Visit (2015 American film)', 'The Visit (2015 American film)', 'Irma Vep', 'Gothika', 'Scare Campaign']
+样本15:
+  Query: Which college was founded first, Williams College or University of Southern California?
+  Gold Answer: Williams College
+  Retrieved Titles: ['University of Southern California', 'University of Southern California', 'List of Williams College people', 'University of California, Berkeley', 'Southern University Law Center']
+样本16:
+  Query: Which has the larger population, Shanghai or Hanggin Rear Banner?
+  Gold Answer: Shanghai
+  Retrieved Titles: ['Urad Rear Banner', 'Hanggin Rear Banner', 'Hanggin Banner', 'Horqin Left Rear Banner', 'Old Barag Banner']
+样本17:
+  Query: Which cast member of Pitch Perfect 2 was born March 9, 1986?
+  Gold Answer: Brittany Snow
+  Retrieved Titles: ['Kelley Jakle', 'Pitch Perfect 2', 'Pitch Perfect 2', 'Pitch Perfect 3', 'Pitch Perfect 3']
+样本18:
+  Query: What group released a song called "Stinkfist" on September 17, 1996?
+  Gold Answer: Tool
+  Retrieved Titles: ['The Stinky Puffs', 'Love Stinks (song)', 'That Smell', 'The Silencers (band)', 'The Silencers (band)']
+样本19:
+  Query: What Estonian composer whose music is partly inspired by Gregorian chant set the Latin text of the Magnificat canticle in 1989?
+  Gold Answer: Arvo Pärt
+  Retrieved Titles: ['Arvo Pärt', 'Magnificat (Pärt)', 'Veljo Tormis', 'Roman Toi', 'Otto Peter']
+样本20:
+  Query: Be Quick '28  football club is locayed in what province?
+  Gold Answer: Overijssel
+  Retrieved Titles: ["Be Quick '28", 'Scarborough Athletic F.C.', 'Midget Football League of Manitoba', "Quick '20", 'Fivemiletown United F.C.']
+样本21:
+  Query: Sian Gibson co-wrote which British sitcom, set around a supermarket and car share scheme?
+  Gold Answer: Peter Kay's Car Share
+  Retrieved Titles: ['Sian Gibson', "Peter Kay's Car Share", 'Gibson (cocktail)', 'Meet Market (film)', 'Mel Gibson filmography']
+样本22:
+  Query: Of all the teams John Nyskohus played for, which team was known as "the Black and Whites?"
+  Gold Answer: Adelaide City
+  Retrieved Titles: ['John Nyskohus', '1942 Negro World Series', 'John Cannady', 'Ducky Holmes', 'Stephen Sieradzki']
+样本23:
+  Query: Carlos Hasselbaink is the older brother of the footballer of what nationality?
+  Gold Answer: Dutch
+  Retrieved Titles: ['Carlos Hasselbaink', 'Jorge Enríquez', 'Carlos Canário', 'Carlos Cunha', 'Carlos Cabezas']
+样本24:
+  Query: Where is the historic meeting venue built in a style taught at the Ecole des Beaux-Arts?
+  Gold Answer: First Street
+  Retrieved Titles: ['Musée des Arts décoratifs, Strasbourg', 'Beaux-Arts architecture', 'Dom-Hotel', 'Musée Henri-Mathieu', 'Jean Baptiste Androuet du Cerceau']
+样本25:
+  Query: Buck Rogers XXVC is a published campaign setting or a homebrew campaign setting?
+  Gold Answer: published campaign settings
+  Retrieved Titles: ['Campaign setting', 'Buck Rogers XXVC', 'The Campaign (film)', 'Spuds MacKenzie', 'The History of Ranching (Winn)']
+样本26:
+  Query: What is the relation between current manager of Chinese club Tianjin Quanjian and Paolo Cannavaro?
+  Gold Answer: brother
+  Retrieved Titles: ['Fabio Cannavaro', 'Fabio Cannavaro', '2017 Tianjin Quanjian F.C. season', '2017 Tianjin Quanjian F.C. season', 'Tianjin Quanjian F.C.']
+样本27:
+  Query: Oak Beach, New York and Great South Bay are both situated between what same island?
+  Gold Answer: Long Island
+  Retrieved Titles: ['Oak Beach, New York', 'Great South Bay', 'Lower South Bay, New York', 'South Oyster Bay', 'Great South Bay Bridge']
+样本28:
+  Query: Wrinkles is a song that was recorded by what American country and Christian country band that was founded in 1982?
+  Gold Answer: Diamond Rio
+  Retrieved Titles: ['Wrinkles (song)', 'Wrinkles (toy)', 'Around the Bend (album)', 'Gator Country', 'Gator Country']
+样本29:
+  Query: Where did the descendants of the group of black Indians associated with the Seminole people settle?
+  Gold Answer: Coahuila, Mexico
+  Retrieved Titles: ['Black Seminoles', 'Seminole', 'Seminole music', 'Black Indians in the United States', 'Seminole Nation of Oklahoma']
+样本30:
+  Query: What criteria subjectively qualifies the Houston Astrodome to be called the Eighth Wonder of the World?
+  Gold Answer: comparable to the seven Wonders of the World
+  Retrieved Titles: ['Astrodome', 'Astrodome', 'Mercedes-Benz Superdome', 'WrestleMania X8', 'Eighth Wonder']
+样本31:
+  Query: Where is the home of the common party princess voiced by Idina Menzel?
+  Gold Answer: Arendelle
+  Retrieved Titles: ['Idina Menzel: Live at Radio City', 'Idina Menzel: Live at Radio City', 'Idina Menzel: World Tour', 'Idina 2017 world tour', 'Laura Chiatti']
+样本32:
+  Query: What station broadcast the episode "Marry Me a Little, Marry Me a Little More" , of the series created by Max Mutchnick and David Kohan?
+  Gold Answer: National Broadcasting Company
+  Retrieved Titles: ['Marry Me a Little, Marry Me a Little More', 'Wedding (TV series)', 'David Kohan', '&quot;Good Luck, Father Ted&quot;', 'The Wedding Bride']
+样本33:
+  Query: Flynn Rider is voiced by which American actor and singer born September 29, 1980?
+  Gold Answer: Zachary Levi
+  Retrieved Titles: ['Flynn Rider', 'Townsend Coleman', 'Jimmy Butler (actor)', 'Mehrdad Raissi Ardali', 'Ben Pronsky']
+样本34:
+  Query: Vestfold and Telemark each border what other Norwegian county?
+  Gold Answer: Buskerud
+  Retrieved Titles: ['Upper Telemark', 'Norddalsfjorden', 'Norwegian County Road 3', 'Norwegian County Road 3', 'Tjølling']
+样本35:
+  Query: How many books are in the text composed by the founder Nyaya school of Hindu philosophy and is used in the development of Indian logic?
+  Gold Answer: five books
+  Retrieved Titles: ['Indian logic', 'Nyāya Sūtras', 'Dignāga', 'Buddhist logic', 'Udyotakara']
+样本36:
+  Query: The Story of Them Featuring Van Morrison is a compilation album recorded by what Northern Irish band formed in Belfast in April 1964?
+  Gold Answer: Them
+  Retrieved Titles: ['The Story of Them Featuring Van Morrison', 'Them (band)', 'Van Morrison in Ireland', 'Them Again', 'His Band and the Street Choir']
+样本37:
+  Query: In which part of Attica was the battle of Marathon in 490 BC fought?
+  Gold Answer: northeastern
+  Retrieved Titles: ['Battle of Marathon', 'Marathon, Greece', 'Callimachus (polemarch)', 'Battle of the Allia', 'Battle of the Colline Gate (82 BC)']
+样本38:
+  Query: Lost in Time includes the theme song for a French/Japanese anime series that was created by who?
+  Gold Answer: Savin Yeatman-Eiffel
+  Retrieved Titles: ['List of Tytania episodes', 'The Mystery of Time', 'Summer Time Gone', 'Shinobi vs. Dragon Ninja', 'List of Rage of Bahamut episodes']
+样本39:
+  Query: Which facility was founded in Missouri, Discovery Zone or Valentino's?
+  Gold Answer: Discovery Zone
+  Retrieved Titles: ["Valentino's", 'Route 66 State Park', 'Discovery Zone', 'Corps of Discovery', 'Catalyst Science Discovery Centre']
+样本40:
+  Query: The actor of Professor Sprout in "Harry Potter" acted as a mother in a sitcom. In that sitcom, what was the daughter's name?
+  Gold Answer: Fran
+  Retrieved Titles: ['Miriam Margolyes', 'Miriam Margolyes', 'Dermot Morgan', 'List of Father Ted characters', 'List of Harry Potter cast members']
+样本41:
+  Query: What is the name of the basketball team that trained under assistant coach, Steven Michael Henson at the University of Oklahoma ?
+  Gold Answer: Oklahoma Sooners men's basketball
+  Retrieved Titles: ['Steve Henson', 'Ken Hayes', 'Steve Payne (basketball)', 'Josh Heupel', 'Josh Heupel']
+样本42:
+  Query: Which of the following works was completed first, Something Wicked This Way Comes or The Wind in the Willows?
+  Gold Answer: The Wind in the Willows
+  Retrieved Titles: ['The Willows at Christmas', 'Something Wicked This Way Comes (film)', 'Something Wicked This Way Comes (film)', 'Something Wicked This Way Comes (novel)', 'Something Wicked This Way Comes (novel)']
+样本43:
+  Query: For which band, was the female member of Fitz and The Tantrums, the front woman for ten years ?
+  Gold Answer: The Rebirth
+  Retrieved Titles: ['Fitz and the Tantrums discography', 'Fitz and The Tantrums', 'Fitz and The Tantrums', 'Fitz and The Tantrums', 'Michael Fitzpatrick (musician)']
+样本44:
+  Query: In what year was the singer whose second remix album was "Hannah Montana Hits Remixed" born?
+  Gold Answer: 1992
+  Retrieved Titles: ['Hannah Montana Hits Remixed', 'Hannah Montana 2: Non-Stop Dance Party', 'Hannah Montana 2: Meet Miley Cyrus', 'Hannah Montana 2: Meet Miley Cyrus', 'The Best of Both Worlds (song)']
+样本45:
+  Query: In what county did Michael Ola attend high school?
+  Gold Answer: Clayton County, Georgia, United States
+  Retrieved Titles: ['Michael Ola', 'Jonathan Alder High School', 'Obi Egekeze', 'Orange County School of the Arts', 'Oahu Interscholastic Association']
+样本46:
+  Query: Which battle took place closer to New York City, Battle of Fredericksburg or the Western Allied invasion of Germany ?
+  Gold Answer: Battle of Fredericksburg
+  Retrieved Titles: ['Western Allied invasion of Germany', 'Western Allied invasion of Germany', 'Battle of Germantown', 'Battle of Berlin', 'Battle of Mühlberg']
+样本47:
+  Query: Faruk Halibegovic was born in what city that is the capital and largest city of Bosnia and Herzegovina with a population of 275,524?
+  Gold Answer: Sarajevo
+  Retrieved Titles: ['Sarajevo', 'Bosniac National Council', 'Banja Luka', 'National Gallery of Bosnia and Herzegovina', 'Višegrad']
+样本48:
+  Query: When was the first stud book created for the breed of horse that came from Rotrou introducing Arabian horses to Perche?
+  Gold Answer: 1883
+  Retrieved Titles: ['Percheron', 'Rotrou III, Count of Perche', 'Crabbet Arabian Stud', 'Sella Italiano', 'Sella Italiano']
+样本49:
+  Query: The song Justice was used for a WWE event that took place on what day ?
+  Gold Answer: May 1, 2011
+  Retrieved Titles: ['Justice (Rev Theory album)', 'Royal Rumble (1999)', 'WrestleMania IX', 'WWE Super Tuesday', 'WrestleMania XXX']
+样本50:
+  Query: Who directed the film where Susanne Pollatschek voiced Olivia Flaversham?
+  Gold Answer: Burny Mattinson, David Michener, and the team of John Musker and Ron Clements
+  Retrieved Titles: ['Susanne Pollatschek', 'Rebecca Rigg', 'Bridget Hoffman', 'Anna Karenina (2012 film)', 'Katherine Waterston']
+样本51:
+  Query: When was the folk dance style Johannes Brahms' Liebeslieder Waltzes were written for most popular?
+  Gold Answer: end of the 18th century
+  Retrieved Titles: ['Liebeslieder, Op. 114 (Strauss)', 'Liebeslieder Walzer, Op. 52 (Brahms)', 'Sixteen Waltzes, Op. 39 (Brahms)', 'Wiener Carneval', 'Johann Strauss II']
+样本52:
+  Query: Which hospital, the Psychiatric Institute of Washington or Howard University Hospital, is known for serving the African American community including former slaves?
+  Gold Answer: Howard University Hospital
+  Retrieved Titles: ['Howard University Hospital', 'Psychiatric Institute of Washington', "The New Freedmen's Clinic", 'Charles DeWitt Watts', 'New York State Psychiatric Institute']
+样本53:
+  Query: Nick Jr Too was launched on the same day as what rival channel that was created by Turner Broadcasting, and is the sister station of Cartoon Network?
+  Gold Answer: Cartoon Network Too
+  Retrieved Titles: ['Nick Jr. Too', 'Cartoon Network (South Korea)', 'Nickelodeon (Japan)', 'Cartoon Network Too', 'Cartoon Network Too']
+样本54:
+  Query: Band-e-Amir Dragons is named after the lakes in which Afghan national park?
+  Gold Answer: Band-e Amir National Park
+  Retrieved Titles: ['Band-e-Amir Dragons', 'Qasim Oryakhail', 'Shahidullah (cricketer)', 'Ikram Faizi', 'Arif Khan (cricketer)']
+样本55:
+  Query: KSCW-DT is part of a duopoly with which virtual channel 12 in Wichita?
+  Gold Answer: KWCH-DT
+  Retrieved Titles: ['KSCW-DT', 'KWCH-DT', 'KDCU-DT', 'KSQA', 'KCTV']
+样本56:
+  Query: Victor Varnada directed Twisted Fortune, which starred which brother of Eddie Murphy?
+  Gold Answer: Charlie Murphy
+  Retrieved Titles: ['Twisted Fortune', 'Dominic West', 'Glen and Randa', 'Twisted Tales (web series)', 'Lorraine Pilkington']
+样本57:
+  Query: Q: What 1965-born field director directed the 2002 Indian comedy horror film "Makdee" ("Spider", in English)?
+  Gold Answer: Vishal Bhardwaj
+  Retrieved Titles: ['Makdee', 'Science fiction films in India', 'Science fiction films in India', 'Mahesh Manjrekar', 'Aparichithan']
+样本58:
+  Query: Who was the original female founder of the brewery that was purchased in 2006 by the largest brewery in the state of Maryland?
+  Gold Answer: Marjorie McGinnis
+  Retrieved Titles: ['Flying Dog Brewery', 'National Brewing Company', 'Gunther Brewing Company', 'Brewery', "Murphy's Brewery"]
+样本59:
+  Query: What film studio produced both National Treasure and The Computer Wore Tennis Shoes?
+  Gold Answer: Walt Disney Pictures
+  Retrieved Titles: ['The Computer Wore Tennis Shoes (1995 film)', 'The Computer Wore Tennis Shoes', 'Celebration of Annihilation', 'National Treasure (film)', 'National Treasure (film)']
+样本60:
+  Query: The composer of the music for the ballet "The Seasons"  was the director of what organization from 1905 to 1928?
+  Gold Answer: Saint Petersburg Conservatory
+  Retrieved Titles: ['Pierre Monteux', 'The Rite of Spring', 'New York City Ballet', 'List of La valse casts', 'American Ballet']
+样本61:
+  Query: What kind of beverage does Planter's Punch and Black Velvet have in common?
+  Gold Answer: cocktail
+  Retrieved Titles: ['Punch (drink)', 'Winter melon punch', 'Clover Club Cocktail', 'Phillips Distilling Company', 'Pink Gin']
+样本62:
+  Query: What is the population of the town at the intersection of Interstate Highways 77 and  the longest Interstate highway within the borders of Virginia?
+  Gold Answer: 8,211 at the 2010 census
+  Retrieved Titles: ['Interstate 81 in Virginia', 'Virginia State Route 51', 'Interstate 85 in Virginia', 'Interstate 85 in Virginia', 'Virginia State Route 165']
+样本63:
+  Query: Ara Berberian sand for which role an opera by Giuseppe Verdi?
+  Gold Answer: Sparafucile
+  Retrieved Titles: ['Ara Berberian', 'Almerindo Spadetta', "Giovanna d'Arco", 'Rolando Panerai', 'Nargiz (opera)']
+样本64:
+  Query: High School Confidential, an eight part documentary followed twelve high school teenagers from a high school in Overland Park, Kansas that ranked what in the 2009 Newsweek ranking of the top 1,500 high schools in the United States?
+  Gold Answer: #364
+  Retrieved Titles: ['High School Confidential (TV series)', 'Blue Valley Northwest High School', 'HighEnd Teen', 'A. Philip Randolph Campus High School', 'A. Philip Randolph Campus High School']
+样本65:
+  Query: What is the city in which Bauerfield International Ariport is based out of?
+  Gold Answer: Port Vila
+  Retrieved Titles: ['Bauerfield International Airport', 'Parafield Airport', 'Ilhéus Jorge Amado Airport', 'Boeing Field', 'San Angelo Regional Airport']
+样本66:
+  Query: Reeves Plains Power Station is a proposal from a company owned by who?
+  Gold Answer: Chow Tai Fook Enterprises
+  Retrieved Titles: ['Reeves Plains Power Station', 'North American Light and Power Company', 'Dunston Power Station', 'Wiregrass Electric Cooperative', 'Clean Power Finance']
+样本67:
+  Query: What was the arena, in which the 2017 Brit Awards were held, called during the 2012 Olympics ?
+  Gold Answer: North Greenwich Arena
+  Retrieved Titles: ['2017 Brit Awards', '2012 Summer Olympics', '2016 Brit Awards', '2012 British Academy Television Awards', '2018 Brit Awards']
+样本68:
+  Query: Are Siping, Jilin and Linhai both in the same province in China?
+  Gold Answer: no
+  Retrieved Titles: ['Siping, Jilin', 'Siping Railway Station', 'Jilin Normal University', 'Tiexi District, Siping', 'Changtu County']
+样本69:
+  Query: The 2017 European Short Course Swimming Championships will be held in an Arena which began construction when?
+  Gold Answer: 26 June 2013
+  Retrieved Titles: ['2017 European Short Course Swimming Championships', 'European Short Course Swimming Championships', '2004 European Short Course Swimming Championships', '2007 European Short Course Swimming Championships', '2010 European Short Course Swimming Championships']
+样本70:
+  Query: Love Thy Neighbor starred an AMerican actor who was best known for his role as Jack Tripper on what sitcom?
+  Gold Answer: Three's Company
+  Retrieved Titles: ['Love Thy Neighbor (1940 film)', 'List of Love Thy Neighbor episodes', 'Patrice Lovely', 'Darmirra Brunson', 'Everett Greenbaum']
+样本71:
+  Query: Which American pro basketball player who won gold at the 2008 Summer Olympics was signed by the Utah Jazz during the 2005-05 offseason?
+  Gold Answer: Carlos Austin Boozer Jr.
+  Retrieved Titles: ["2008 United States men's Olympic basketball team", 'Jerry West', 'George Mikan', '2005–06 Atlanta Hawks season', '2005–06 Atlanta Hawks season']
+样本72:
+  Query: Tryon D. Lewis is a lawyer from Odessa, Texas which is located in what county?
+  Gold Answer: Ector County
+  Retrieved Titles: ['Tryon D. Lewis', 'Brooks Landgraf', 'Jean Hudson Boyd', 'Lewisville, Texas', 'Rodney Ellis']
+样本73:
+  Query: What American filmmaker was the co-founder of Troma Entertainment film studio, Stanley Lloyd Kaufman, Jr. or Jay T. Wright?
+  Gold Answer: Stanley Lloyd Kaufman, Jr.
+  Retrieved Titles: ['Lloyd Kaufman', 'Lloyd Kaufman', 'Troma Entertainment', 'Pat Swinney Kaufman', 'List of Troma Team Video Titles']
+样本74:
+  Query: Who acted in the film and television series, "Harry and the Hendersons," and also worked with Danny Glover?
+  Gold Answer: Kevin Peter Hall
+  Retrieved Titles: ['Harry and the Hendersons (TV series)', 'Kevin Peter Hall', 'List of Harry Potter cast members', 'Harry Cheshire', 'Harry Landers']
+样本75:
+  Query:  Jason Regler, stated that he had the idea for the flashing wristbands during a song built around which instrument ?
+  Gold Answer: an organ
+  Retrieved Titles: ['Xyloband', 'Teketzis', 'The Joggers', 'Greg Davis (musician)', 'Raymond Scott']
+样本76:
+  Query: How long did the career span of the actor who starred with Mickey Rooney and Marilyn Maxwell in Off Limits?
+  Gold Answer: nearly 80 years
+  Retrieved Titles: ['Off Limits (1953 film)', 'The Mickey Rooney Show', 'Arthur Jensen (actor)', "Mickey's Helping Hand", 'The Extraordinary Seaman']
+样本77:
+  Query: The Cineplex Odeon Theatres are now operated as which American movie theater chain majority-owned by Chinese conglomerate Dalian Wanda Group?
+  Gold Answer: AMC Theatres
+  Retrieved Titles: ['AMC Theatres', 'Cineplex Odeon Corporation', 'Wanda Group', 'Wanda Media', 'Cineplex Odeon Films']
+样本78:
+  Query: Who founded Methodism along with the man who was also part of the revival movement in England and the Great Awakening in the United States?
+  Gold Answer: George Whitefield
+  Retrieved Titles: ['Second Great Awakening', 'List of Methodist churches in the United States', 'Thomas Campbell (minister)', 'Revival of 1800', 'Oxford Movement']
+样本79:
+  Query: What party was Johan Henrik Deuntzer a part of before the party that translates to the "Radical Left?"
+  Gold Answer: Liberal "Venstre" party
+  Retrieved Titles: ['Johan Henrik Deuntzer', 'Cabinet of Deuntzer', 'Hans van Mierlo', 'Democratic Party (Denmark)', 'Radical Left Front']
+样本80:
+  Query: Kevin Watson currently manages which Southern League football team?
+  Gold Answer: Bishop's Stortford
+  Retrieved Titles: ['Kevin Beard', 'Kevin Warren', 'Kevin Bullis', 'Kevin Richardson (footballer)', 'Kevin Sloan']
+样本81:
+  Query: Li Yitong made her television debut on which network?
+  Gold Answer: Dragon TV
+  Retrieved Titles: ['Li Yitong (singer)', 'Li Yitong (actress)', 'Li Yitong (actress)', 'Zhu Xun', 'Wong Li-Lin']
+样本82:
+  Query: The Dukes of Hazzard was inspired by the 1975 film starring whom?
+  Gold Answer: James Mitchum
+  Retrieved Titles: ['The Dukes of Hazzard', 'Moonrunners', 'The Midnight Man (1974 film)', 'The Wild Party (1975 film)', 'Duke of the Navy']
+样本83:
+  Query: How many total staff (including part-time, flexible, and fixed contract staff) does the broadcaster, who released HyperNormalisation, employ?
+  Gold Answer: 35,402
+  Retrieved Titles: ['BBC', 'BBC', 'BBC', 'Ekstra Weekend', 'Hlaudi Motsoeneng']
+样本84:
+  Query: Which 18th-century canal was longer, the Sandy and Beaver Canal in Ohio or New Jersey's Morris Canal?
+  Gold Answer: Morris Canal
+  Retrieved Titles: ['Sandy and Beaver Canal', 'Sandy and Beaver Canal', 'Morris Canal', 'Beaver and Erie Canal', 'Beaver and Erie Canal']
+样本85:
+  Query: Did Qionghai or Suining  have a population of 658,798 in 2002? 
+  Gold Answer: In 2002, Suining had a population of 658,798.
+  Retrieved Titles: ['Suining', 'Huaihua', 'Qinyang', 'Unrecognized ethnic groups in China', 'Unrecognized ethnic groups in China']
+样本86:
+  Query: The project that Jeder Rappen zählt is inspired by began in what year?
+  Gold Answer: 2004
+  Retrieved Titles: ['Jeder Rappen zählt', 'Aaron Fechter', 'Zaj', 'Poppe Damave', 'Vadim Zakharov (artist)']
+样本87:
+  Query: Which composer was a French Romantic composer in the 1800's, Hector Berlioz or Gaetano Donizetti?
+  Gold Answer: Louis-Hector Berlioz
+  Retrieved Titles: ['Berlioz (disambiguation)', 'Hector Berlioz', 'Gaetano Rossi', 'Gaetano Rossi', 'Mémoires (Berlioz)']
+样本88:
+  Query: Kurt Cobain: Montage of Heck documents the life of Cobain until his suicide in what state?
+  Gold Answer: Washington
+  Retrieved Titles: ['Kurt Cobain: Montage of Heck', 'Kurt Cobain: Montage of Heck', 'Kurt Cobain: Montage of Heck', 'Suicide of Kurt Cobain', 'Suicide of Kurt Cobain']
+样本89:
+  Query: did Robert Wise have more award nominations than Zoltan Korda?
+  Gold Answer: yes
+  Retrieved Titles: ['List of awards and nominations received by Wizkid', 'Zoltan Korda', 'Zoltan Korda', 'European Film Award for Best Actor', 'Robert Karvelas']
+样本90:
+  Query: What speech by Abraham Lincoln was part of Richard Heffner's A Documentary History of the United States?
+  Gold Answer: Gettysburg Address
+  Retrieved Titles: ['Richard Heffner', 'Richard Heffner', 'Richard Heffner', 'Abraham Lincoln (1930 film)', 'C. Vann Woodward']
+样本91:
+  Query: The second studio album by The D.O.C was named as a reference to Charles Manson's idea of a Beatles' song which was a product of McCartney's attempt to create what kind of sound?  
+  Gold Answer: as loud and dirty as possible
+  Retrieved Titles: ['Helter Skelter (album)', 'Helter Skelter (Manson scenario)', 'Original Sound', 'The Manson Family Album', 'Jürgen Vollmer']
+样本92:
+  Query: Which British music producer and engineer is notable for working wih an English electronic band having the founders: Dave Gahan, Martin Gore, and Andy Fletcher?
+  Gold Answer: Gareth Jones
+  Retrieved Titles: ['Lloyd Dunn', 'Charlie Harper (singer)', 'Ian MacKaye', 'Raindancer', 'UKF Music']
+样本93:
+  Query: What else was Baghdad known as during the Abbasid Caliphate?
+  Gold Answer: the City of Peace
+  Retrieved Titles: ['Baghdad', 'Abbasid invasion of Asia Minor (806)', 'Arab Kingdom of Syria', 'About Baghdad', "Abna' al-dawla"]
+样本94:
+  Query: What is the name of the show that the man that was drafted eighth overall in the 1995 NFL Draft co-hosts?
+  Gold Answer: College Football Scoreboard
+  Retrieved Titles: ['1999 NFL Draft', 'Curt Menefee', 'Michael Strahan', '2009 NFL Draft', 'Todd Ellis']
+样本95:
+  Query: Which river flows next to the German town where the music project "I Drink My Coffee Alone" by Alex Gazin originates from?
+  Gold Answer: Moselle
+  Retrieved Titles: ['I Drink My Coffee Alone', 'List of rivers of Germany', 'Boyne River (Michigan)', 'Gorky Reservoir', 'Johannes Franciscus Swinkels']
+样本96:
+  Query: Tritonia and Phyteuma are both names for a what of plants?
+  Gold Answer: genus
+  Retrieved Titles: ['Tritoniopsis', 'Tritonia (plant)', 'Phyteuma', 'Stillingia', 'Tricyrtis']
+样本97:
+  Query: Along which river is the Kentucky Department of Corrections headquarted?
+  Gold Answer: Kentucky River
+  Retrieved Titles: ['Kentucky Department of Corrections', 'Kentucky Department of Criminal Investigation', 'Louisville Metro Department of Corrections', 'Kentucky Correctional Institute for Women', 'Kentucky State Penitentiary']
+样本98:
+  Query: The Experts stars what actor known for "Saturday Night Fever" and "Grease"?
+  Gold Answer: John Travolta
+  Retrieved Titles: ['Saturday Night Fever', 'Joseph Cali', 'Stephen Mahy', 'Paul Pape', 'Grease (film)']
+样本99:
+  Query: Ithihasa and the Indian music composer of  "Chronic Bachelor", "Udayananu Tharam", "Naran", "Puthiya Mukham," "Urumi", "Grandmaster" and "Bhaskar the Rascal" are known in what type of films/cinema?
+  Gold Answer: Malayalam
+  Retrieved Titles: ['Deepak Dev', 'Aagadu (soundtrack)', 'Samhita (film)', 'Bhupen Hazarika', 'Raju Adhikari (Film Director)']
+样本100:
+  Query: What year was the player the Los Angeles Clippers aquired from the Atlanta Hawks born?
+  Gold Answer: 1961
+  Retrieved Titles: ['1993–94 Los Angeles Clippers season', '1999–2000 Los Angeles Clippers season', '2012–13 Los Angeles Clippers season', 'List of Los Angeles Clippers head coaches', 'List of Los Angeles Clippers head coaches']
+样本101:
+  Query: How many students were enrolled in American professional bowler Chris Barnes' high school in the 2010-2011 school year?
+  Gold Answer: 1,840 students
+  Retrieved Titles: ['Chris Barnes (bowler)', 'Bart Carlton', 'Bart Carlton', 'A. Philip Randolph Campus High School', 'A. Philip Randolph Campus High School']
+样本102:
+  Query: Who was the electoral division that James Tully  represented in 1928 named after?
+  Gold Answer: Sir Edmund Barton
+  Retrieved Titles: ['Electoral (Amendment) Act 1974', 'Newark by-election, 2014', 'Jim Harrison (politician)', 'Jim Harrison (politician)', 'Sean Tully']
+样本103:
+  Query: MadMaze was developed by Eric Goldberg as what type of game? 
+  Gold Answer: role-playing game
+  Retrieved Titles: ['MadMaze', 'MadMaze', 'Eric Goldberg (game designer)', 'Mad Catz', 'A Game with Stones']
+样本104:
+  Query: Saturn AL-31 is an engine that powers the aircraft produced in what country?
+  Gold Answer: China
+  Retrieved Titles: ['Saturn AL-31', 'Saturn II', 'Airbus A310', 'Saturn I', 'Airbus A340']
+样本105:
+  Query: What American corporation owns Claim Jumper?
+  Gold Answer: Landry's
+  Retrieved Titles: ['Claim Jumper', 'Jumper (2008 film)', 'Jonathan Michael Ansell', 'Ugg boots trademark dispute', 'Pinnacle Airlines Corp.']
+样本106:
+  Query: Who composed music for this 1941 American animated film with the main character of Jumbo Jr.?
+  Gold Answer: Dan Crow
+  Retrieved Titles: ['Jumbo (film)', 'Leon Schlesinger', 'Hans Zimmer', 'Babes in Toyland (operetta)', 'Bill Melendez']
+样本107:
+  Query: Which American film actor and dancer starred in the 1945 film Johnny Angel?
+  Gold Answer: George Raft
+  Retrieved Titles: ['Johnny Angel', 'José Baviera', 'Fallen Angel (1945 film)', 'The White Angel (1943 film)', 'The Angel Levine']
+样本108:
+  Query: Hermann Wilhelm Göring was a veteran fighter pilot in a war that ended in what year?
+  Gold Answer: 1918
+  Retrieved Titles: ['Werner Goering', 'Hermann Göring', 'Hermann Göring', 'Manfred von Richthofen', 'Egon Mayer']
+样本109:
+  Query: Caprice No. 5 was composed by what Italian violinist, guitarist, and composer, who was the most celebrated violin virtuoso of his time?
+  Gold Answer: Niccolò (or Nicolò) Paganini
+  Retrieved Titles: ['Niccolò Paganini', 'Alessandro Rolla', 'Eugenio Cavallini', 'Eugenio Cavallini', 'Eugenio Cavallini']
+样本110:
+  Query: What is the translation of the name of the river on which Widnes is located ?
+  Gold Answer: boundary river
+  Retrieved Titles: ['List of rivers of Germany', 'Helmand River', 'Tsirku River', 'Leda (river)', 'River Welland']
+样本111:
+  Query: Which film was released first: Sacred Planet or Oz the Great and Powerful?
+  Gold Answer: Sacred Planet
+  Retrieved Titles: ['Sacred Planet', 'Oz the Great and Powerful', 'The Marvelous Land of Oz', 'Golden Venus', 'The Light of the World (film)']
+样本112:
+  Query: What Mexican actress of film, television, and theatre was a protagonist in La Heredera?
+  Gold Answer: Silvia Navarro
+  Retrieved Titles: ['María Eugenia Llamas', 'Andrea Palma (actress)', 'Gisela Ponce de León', 'Noé Murayama', 'La heredera']
+样本113:
+  Query: Are both Ride a Wild Pony and Frozen 2 computer-animated films?
+  Gold Answer: no
+  Retrieved Titles: ['The Simpsons Ride', 'Ride a Wild Pony', 'The Wild Pony', 'The Wild Pony', 'Frozen 2']
+样本114:
+  Query: How does this series represent a function, which is also used in the Homotopy analysis method?
+  Gold Answer: infinite sum of terms
+  Retrieved Titles: ['Homotopy analysis method', 'A¹ homotopy theory', 'Hahn series', 'Sturm series', 'Runge–Kutta–Fehlberg method']
+样本115:
+  Query: What country is the singer from, who duets with Dave Hemingway on the song "A Little Time"?
+  Gold Answer: Northern Irish
+  Retrieved Titles: ['A Little Time', 'Dave Hemingway', 'Jack Little (songwriter)', 'Takes a Little Time (Amy Grant song)', 'Hometown News']
+样本116:
+  Query: The Trappist Abbey of Achel produces and sells what as an "Authentic Trappist Product"?
+  Gold Answer: Trappist beer
+  Retrieved Titles: ['Achel Abbey', 'Trappist beer', 'Achel Brewery', 'Hamont-Achel', "St. Joseph's Abbey, Massachusetts"]
+样本117:
+  Query: An english lawyer had Christopher Mont as an agent and was awarded denization where?
+  Gold Answer: England
+  Retrieved Titles: ['Christopher Mont', 'John Anstey (poet)', 'Christopher Puller', 'WN Hillas &amp; Co Ltd v Arcos Ltd', 'Christopher Peyton']
+样本118:
+  Query: Who is the lead vocalist for Maroon 5's sixth studio album?
+  Gold Answer: Adam Levine
+  Retrieved Titles: ["Maroon 5's sixth studio album", 'Maroon 5 discography', 'Maroon 5 discography', 'Overexposed (album)', 'V (Maroon 5 album)']
+样本119:
+  Query: which plant has the highest specie  Panicum or Populus 
+  Gold Answer: Panicum
+  Retrieved Titles: ['List of Panicum species', 'Panicum antidotale', 'Panicum lycopodioides', 'Panicum capillare', 'Panicum turgidum']
+样本120:
+  Query: What position in the court does the Professor of Law at the Interdisciplinary Center in Herzliya hold?
+  Gold Answer: Supreme Court Judge
+  Retrieved Titles: ['Interdisciplinary Center Herzliya', 'Radzyner Law School', 'Aharon Barak', 'Marc Galanter', 'Roberta Romano']
+样本121:
+  Query: Carrie Coon plays Margo Dunne in a 2014 film set in what state?
+  Gold Answer: Missouri
+  Retrieved Titles: ['Carrie Coon', 'Carrie Coon', 'Carrie (2013 film)', 'Carrie (2013 film)', 'Busy Philipps']
+样本122:
+  Query: Who gave the mother of Alberic II of Spoleto the title "patricia" of Rome?
+  Gold Answer: Pope John X
+  Retrieved Titles: ['Alberic II of Spoleto', 'Lucius Marcius Philippus (consul 56 BC)', 'Marcus Livius Drusus Claudianus', 'Claudia Capitolina', 'Pomponia Graecina']
+样本123:
+  Query: The Lisbon Traviata revolves around fans of the soprano who was of what nationality?
+  Gold Answer: Greek-American
+  Retrieved Titles: ['The Lisbon Traviata', 'Silvio Dante', 'Luis Lima', 'Becoming Traviata', 'The Sopranos']
+样本124:
+  Query:  New Hampshire Northcoast Corporation interchanges cars with which holding company of Class II regional railroads?
+  Gold Answer: Pan Am Railways
+  Retrieved Titles: ['New Hampshire Northcoast Corporation', 'Portsmouth, Great Falls and Conway Railroad', 'Portsmouth, Great Falls and Conway Railroad', 'New Hampshire Route 120', 'New Hampshire Route 120']
+样本125:
+  Query: What was Muammar Mohammed Abu Minyar Gaddafi's title during the Libyan Civil War?
+  Gold Answer: "Brotherly Leader" of the Great Socialist People's Libyan Arab Jamahiriya
+  Retrieved Titles: ['Muammar Gaddafi', 'Al-Saadi Gaddafi', 'Libyan Civil War (2011–present)', 'Ahmed al-Gaddafi al-Qahsi', 'Mehdi Mohammed Zeyo']
+样本126:
+  Query: What bird of prey can be found around Brackendale?
+  Gold Answer: The bald eagle
+  Retrieved Titles: ['List of birds of Wales', 'Brahminy kite', 'Ascocotyle pindoramensis', 'Borbo micans', 'Megalurus']
+样本127:
+  Query: Who has a wider scope of profession, Christopher Guest or  Roman Karmen?
+  Gold Answer: Christopher Haden-Guest
+  Retrieved Titles: ['Christopher Wickham', 'Christopher Guest', 'John Kavanagh (actor)', 'Alice König', 'Edward Kavanagh (Australian politician)']
+样本128:
+  Query: Francisco Mela performed with which American Jazz bassist and singer born in 1984 ?
+  Gold Answer: Esperanza Spalding
+  Retrieved Titles: ['Michael Formanek', 'Chocolate Williams', "Meredith D'Ambrosio", 'Dee Dee Bridgewater', 'John Boutté']
+样本129:
+  Query: What did the screewriter for a 2013 psychological thriller film directed by Denis Villeneuve get a Goya Award nomination for Best Adapted Screenplay at the 27th Goya Awards for? 
+  Gold Answer: "Invader (Invasor)"
+  Retrieved Titles: ['Goya Award for Best Adapted Screenplay', 'Goya Award for Best Original Screenplay', 'Goya Award for Best European Film', 'Goya Award for Best Fictional Short Film', 'Javier Gullón']
+样本130:
+  Query: Which American film director and actor famous for his role as Donny "The Bear Jew" Donowitz wrote the 2012 film "The Man with the Iron Fists"?
+  Gold Answer: Eli Roth
+  Retrieved Titles: ['The Man with the Iron Fists (soundtrack)', 'Howard Drossin', 'The Man with the Iron Fists', 'The Man with the Iron Fists 2', 'Eli Roth']
+样本131:
+  Query: Are Centaurium and Dacrydium both genuses of plant species?
+  Gold Answer: yes
+  Retrieved Titles: ['Centaurium pulchellum', 'Centaurea', 'Zeltnera', 'Zeltnera', 'Zeltnera']
+样本132:
+  Query: Kasper Peter Schmeichel is the son of a professional footballer who was voted what in 1992 and 1993?
+  Gold Answer: IFFHS World's Best Goalkeeper
+  Retrieved Titles: ['Kasper Schmeichel', 'Kasper Schmeichel', 'Kasper Schmeichel', 'Peter Schmeichel', 'Peter Schmeichel']
+样本133:
+  Query: The chorus of "On the Radio" contains references to the song "November Rain" whose band's lead singer is?
+  Gold Answer: Axl Rose
+  Retrieved Titles: ['On the Radio (Regina Spektor song)', 'November Rain', 'Carolina Rain', 'Raindancer', 'Radio brennt']
+样本134:
+  Query: Between the Riddlers Revenge and the Green Lantern, which stand-up roller coaster stands tallest?
+  Gold Answer: The Riddler's Revenge
+  Retrieved Titles: ['Green Lantern (Six Flags Great Adventure)', 'Green Lantern (Six Flags Great Adventure)', 'Green Lantern Coaster', 'Green Lantern Coaster', "The Riddler's Revenge"]
+样本135:
+  Query: What is a Southern European island country that was home to an airline pilot who flew the CASA-212-200 Aviocar before retiring in 2008 for health reasons? 
+  Gold Answer: Malta
+  Retrieved Titles: ['Mark Vella Tomlin', 'AV8 Air', 'Fina Air', 'Inter Island Airways', 'Inter Island Airways']
+样本136:
+  Query: Deckers Creek is a tributary, and its beginning in the west is named after?
+  Gold Answer: Richard Arthur
+  Retrieved Titles: ['Deckers Creek', 'Deckers Creek', 'Deckers Creek Trail', 'Deckers Creek Trail', 'Upper Deckers Creek Wildlife Management Area']
+样本137:
+  Query: Ross Pople worked with this French dominant figure of the post-war classical music world.
+  Gold Answer: Pierre Louis Joseph Boulez
+  Retrieved Titles: ['Ross Pople', 'Ross Pople', 'Pierre Boulez', 'Maurice Ravel', 'Maurice Ravel']
+样本138:
+  Query: Which American actor tries to make his long distance relationship with Priya work in "The Infestation Hypothesis"  
+  Gold Answer: John Mark Galecki
+  Retrieved Titles: ['Diphan', 'The Infestation Hypothesis', 'Mohammad-Reza Foroutan', 'Mohammad-Reza Foroutan', 'John Prosky']
+样本139:
+  Query: When was the English-born South Australian brewer whose brewery was amalgamated with W. K. Simms's West End Brewery. born 
+  Gold Answer: 6 April 1830
+  Retrieved Titles: ['South Australian Brewing Company', 'West End Draught', 'W. H. Clark (brewer)', 'Ruddles Brewery', 'Edwin Thomas Smith']
+样本140:
+  Query: The player also known as  "O Fenômeno" is responsible for popularized a soccer move first reported to be used by what player?
+  Gold Answer: Law Adam
+  Retrieved Titles: ['Step over', 'Step over', "Fabián O'Neill", 'Frits Soetekouw', 'Frits Soetekouw']
+样本141:
+  Query: Which was built first Woolworth Building or 1 New York Plaza?
+  Gold Answer: Woolworth Building
+  Retrieved Titles: ['Woolworth Building', 'F. W. Woolworth Building (Watertown, New York)', '1 New York Plaza', 'F. W. Woolworth Company', 'Transportation Building']
+样本142:
+  Query: Are both Adolfo Bioy Casares and James Norman Hall Argentinian authors?
+  Gold Answer: no
+  Retrieved Titles: ['Adolfo Bioy Casares', 'The Invention of Morel', 'La aventura de un fotógrafo en La Plata', 'Victoria Ocampo', 'Argentus']
+样本143:
+  Query: Are David O. Russell and Tony Gatlif from the same country?
+  Gold Answer: no
+  Retrieved Titles: ['Tim Flannery (baseball)', 'Steve Alvord', 'Steve Mahre', 'Bill Russell (lyricist)', 'David Pelletier']
+样本144:
+  Query: How tall was one of Drew Barry's brothers? 
+  Gold Answer: 6 ft
+  Retrieved Titles: ['Drew Barry', 'Drew Barry', 'Barry Kooser', 'Brent Barry', 'Rick Barry']
+样本145:
+  Query: When did the the Antonine who was known as the third of the five good emperors live?
+  Gold Answer: 24 January 76 – 10 July 138
+  Retrieved Titles: ['Antoninus Pius', 'Marcus Aurelius', 'Byzantine Empire under the Doukas dynasty', 'Gnaeus Domitius Ahenobarbus (consul 32)', 'Trajan']
+样本146:
+  Query: Tamanchey is a comedy film that starred the actress who works in what type of films?
+  Gold Answer: Hindi
+  Retrieved Titles: ['Tamanchey', 'Tamanna (1942 film)', 'Mahendra Sandhu', 'On Chesil Beach (film)', 'Andrea Palma (actress)']
+样本147:
+  Query: What was the name of the commander who captured all of the French ships that varied in size?
+  Gold Answer: Joshua Rowley
+  Retrieved Titles: ['Action of 7 October 1795', 'Capture of the Vigilant', 'French battleship Paris', 'Louis-Jean-Nicolas Lejoille', 'Order of battle at the Battle of San Domingo']
+样本148:
+  Query: What american actress/singer born in 1956 recorded the song Something there for beauty and the beast?
+  Gold Answer: Donna Paige Helmintoller
+  Retrieved Titles: ['Something There', "Paige O'Hara", 'Lisa Angelle', 'Beast (Mia Martina song)', 'Anna Simpson']
+样本149:
+  Query: In what year was the Commander of the second human spaceflight mission in the United States Apollo space program born?
+  Gold Answer: 1928
+  Retrieved Titles: ['Apollo 9', 'Apollo 9', 'Apollo 8', 'Apollo 8', 'Apollo 8']
+样本150:
+  Query: What city is the flying component of the United States Air Force 432d Wing stationed in
+  Gold Answer: Clark County
+  Retrieved Titles: ['432d Wing', '432d Operations Group', '43d Aeromedical Evacuation Squadron', '437th Operations Group', '413th Flight Test Squadron']
+样本151:
+  Query: Who was most well-known as a radio personality and disc jockey, John Garabedian or Charles A. Agemian?
+  Gold Answer: John H. Garabedian
+  Retrieved Titles: ['John Garabedian', 'Radio personality', 'Radio personality', 'Radio personality', 'Don Sherwood (DJ)']
+样本152:
+  Query: Which has more species, Lysiloma or Hydrocotyle umbellata?
+  Gold Answer: Lysiloma
+  Retrieved Titles: ['Hydrocotyle umbellata', 'Casuarinaceae', 'Dactylis', 'Aldrovanda vesiculosa', 'Aldrovanda vesiculosa']
+样本153:
+  Query: Both the 2010–11 UEFA Champions League knockout phase  and 011 UEFA Champions League Final were held at what London stadium?
+  Gold Answer: Wembley
+  Retrieved Titles: ['2010–11 UEFA Champions League knockout phase', '2010–11 UEFA Europa League knockout phase', '2016–17 UEFA Champions League knockout phase', '2016–17 UEFA Champions League knockout phase', '2017–18 UEFA Champions League knockout phase']
+样本154:
+  Query: George Reed was, along with which Drake University player, one of the greatest running backs in CFL history?
+  Gold Answer: Johnny D. Bright
+  Retrieved Titles: ['George Reed (Canadian football)', 'Tony Reed', 'Terry Jackson (running back)', 'Dean Valli', 'Amariah Farrow']
+样本155:
+  Query: What day in November is Southpark most congested?
+  Gold Answer: the fourth Thursday
+  Retrieved Titles: ['Holiday Special (South Park)', 'SouthPark Mall (Charlotte, North Carolina)', 'T in the Park', 'White People Renovating Houses', 'Christchurch Adventure Park']
+样本156:
+  Query: What song written by Jimmy Webb inspired the name of a supergroup including Johnny Cash?
+  Gold Answer: Highwayman
+  Retrieved Titles: ['Tunesmith: The Songs of Jimmy Webb', 'Highwayman (song)', 'El Mirage (album)', 'Wildwood Flower (album)', "Hello, I'm Johnny Cash"]
+样本157:
+  Query: Which author found inspiration in their career prior to writing, Hart Crane or John le Carré?
+  Gold Answer: John le Carré
+  Retrieved Titles: ['John le Carré: The Biography', 'John le Carré: The Biography', 'John le Carré: The Biography', 'John Dufresne', 'Dallas John Baker']
+样本158:
+  Query: Which Houston, TX based store did Paul Traub participate in the bankruptcy hearing?
+  Gold Answer: Stage Stores
+  Retrieved Titles: ['Fuller case', 'John A. Brown (department store)', 'Citadel Mall', 'Clemens Markets', 'Martin Mahoney']
+样本159:
+  Query: What supernatural horror film did Miles Doleac have a role in?
+  Gold Answer: Sleepy Hollow
+  Retrieved Titles: ["Don't Kill It", 'Night of Terror', 'Terror Firmer', 'Hollywood-Monster', 'David Lightfoot']
+样本160:
+  Query: What part of Australia is Alice River and Rupertswood in?
+  Gold Answer: Victoria
+  Retrieved Titles: ['Alice River, Queensland', 'Alice River (Far North Queensland)', 'Alice River (Barcoo River)', 'Todd River', 'Division of Makin']
+样本161:
+  Query: Which band has released more albums with their original members, Sick Puppies or Third Eye Blind?
+  Gold Answer: Sick Puppies
+  Retrieved Titles: ['Third Eye Blind', 'Blue (Third Eye Blind album)', 'Sick Puppies', 'Third Eye Blind (album)', 'Sick Puppies EP']
+样本162:
+  Query: What state is home to the Lake Wobegon Trails and the recording location for the live radio show "A Prairie Home Companion"?
+  Gold Answer: Minnesota
+  Retrieved Titles: ['Lake Wobegon Trails', 'Lake Wobegon', 'A Prairie Home Companion', 'Live Wire Radio', 'Garrison Keillor']
+样本163:
+  Query: Which of the following has released ten solo albums: Kristin Hersh or Mike Patton?
+  Gold Answer: Kristin Hersh
+  Retrieved Titles: ['Kristin Hersh', 'Sky Motel', 'Strange Angels (Kristin Hersh album)', 'The Grotto (album)', 'In Shock']
+样本164:
+  Query: Are Benjamin Britten and Béla Bartók from the same country?
+  Gold Answer: no
+  Retrieved Titles: ['Mark Britten', 'List of compositions by Béla Bartók', 'List of compositions by Béla Bartók', 'List of string quartets by Béla Bartók', 'List of string quartets by Béla Bartók']
+样本165:
+  Query: What is the nickname of Stephan Lichtsteiner that refers to the character from the 1994 American comedy-drama film based on the novel by Winston Groom?
+  Gold Answer: Forrest Gump
+  Retrieved Titles: ['Herman Kahn', 'Eisenstein (film)', 'Benn F. Reyes', 'Wilsberg', 'The Eichmann Show']
+样本166:
+  Query: Rock Springs is a collection of short stories by an author born in what year?
+  Gold Answer: 1944
+  Retrieved Titles: ['Rock Springs (short story collection)', 'Richard Ford', 'The Spring', 'Rock Springs, Wyoming', 'Roald Dahl short stories bibliography']
+样本167:
+  Query: Which of the teams that Sun-woo Kim played on never won a division title?
+  Gold Answer: Colorado Rockies
+  Retrieved Titles: ['Kim Dotson', '1997 IGA Classic – Doubles', '1991 NCAA Division I-A football season', "1956 NAIA Division I Men's Basketball Tournament", '1997 State Farm Evert Cup – Doubles']
+样本168:
+  Query: Which  French ace pilot and adventurer fly L'Oiseau Blanc
+  Gold Answer: Charles Eugène
+  Retrieved Titles: ["L'Oiseau Blanc", 'Gervais Raoul Lufbery', 'Gervais Raoul Lufbery', 'Paul Sauvage (aviator)', 'Jean-Loup Chrétien']
+样本169:
+  Query: Who is considered the more well known author, Roger Angell or Harry Stephen Keeler?
+  Gold Answer: Roger Angell
+  Retrieved Titles: ['Harry Stephen Keeler', 'Harry Stephen Keeler', 'Roger Angell', 'Jonathan Valin', 'Forrest J Ackerman']
+样本170:
+  Query: What collegiate division does the team coached by P.W. Underwood play in?
+  Gold Answer: Division I
+  Retrieved Titles: ['List of MCLA teams', 'Randy Mazey', 'Catholic University Cardinals football', '2013 Florida Atlantic Owls baseball team', "Pacific Tigers men's basketball"]
+样本171:
+  Query: Panic! at the Disco released their 5th studio album on what date?
+  Gold Answer: January 15, 2016
+  Retrieved Titles: ['Panic! at the Disco discography', 'Panic! at the Disco', 'Panic! at the Disco', 'List of Panic! at the Disco band members', 'List of Panic! at the Disco band members']
+样本172:
+  Query: During which years was the model of car, featured on the cover of Earth's "Pentastar: In the Style of Demons" manufactured?
+  Gold Answer: 1964 to 1974
+  Retrieved Titles: ['Pentastar: In the Style of Demons', 'Pentastar: In the Style of Demons', 'EVcort', 'A Car-Tune Portrait', 'Late model']
+样本173:
+  Query: Where is the location of Liberty Square park in Disneyland California?
+  Gold Answer: Anaheim
+  Retrieved Titles: ['Liberty Square (Magic Kingdom)', 'Liberty Square (Magic Kingdom)', 'Disney California Adventure', 'Hong Kong Disneyland', 'Hong Kong Disneyland']
+样本174:
+  Query: What subsidiary of the largest airline of the Republic of China (Taiwan) has a main hub at Taichung Airport?
+  Gold Answer: Mandarin Airlines
+  Retrieved Titles: ['China Airlines', 'China Airlines', 'Taichung International Airport', 'Mandarin Airlines', 'Kunming Changshui International Airport']
+样本175:
+  Query: Which opera has more acts, La jolie fille de Perth or Mitridate, re di Ponto?
+  Gold Answer: La jolie fille de Perth "(The Fair Maid of Perth)" is an opera in four acts
+  Retrieved Titles: ['Mitridate, re di Ponto', 'La jolie fille de Perth', 'La reine Fiammette', 'Arsilda, regina di Ponto', "Le feste d'Apollo"]
+样本176:
+  Query: Which singer is younger, Terri Nunn or Sonya Scarlet? 
+  Gold Answer: Sonya Scarlet
+  Retrieved Titles: ['Sonya Scarlet', 'Edele Lynch', 'Moment of Truth (Terri Nunn album)', 'Cher', 'Scarlet Pleasure']
+样本177:
+  Query: What position does Kyle York hold at the internet performance management company Dyn?
+  Gold Answer: Chief Strategy Officer
+  Retrieved Titles: ['Kyle York (entrepreneur)', 'Kyle York (entrepreneur)', 'Dyn (company)', 'Berk Communications', 'Berk Communications']
+样本178:
+  Query: At what height does State Route 160 start?
+  Gold Answer: 4145 ft
+  Retrieved Titles: ['Washington State Route 160', 'Maine State Route 160', 'Ohio State Route 160', 'U.S. Route 219', 'Virginia State Route 160']
+样本179:
+  Query: What town's geographic feature is the battle James Swan was twice wounded at named for?
+  Gold Answer: Charlestown, Massachusetts
+  Retrieved Titles: ["Swan's Island, Maine", 'Swanage', 'Swan Coastal Plain', 'James Swan (financier)', 'HMS Swan (1767)']
+样本180:
+  Query: What type of community does Bob Hope Airport and Boeing Field have in common?
+  Gold Answer: public
+  Retrieved Titles: ['Bob Hope Airport', 'Boeing Field', 'Topeka Regional Airport', 'Burbank–Bob Hope Airport station', 'Proposed Chicago south suburban airport']
+样本181:
+  Query: Grown-Ups starred the actor who was best known for which role on  "'Allo 'Allo!"?
+  Gold Answer: Captain Hans Geering
+  Retrieved Titles: ['Guy Siner', 'Richard Gibson', 'Jack Haig', 'John D. Collins', 'Nicholas Frankau']
+样本182:
+  Query: Which acter/director is known for depicting the Russian working class life and directed a film that won an Academy Award in 1981?
+  Gold Answer: Vladimir Menshov
+  Retrieved Titles: ['Vladimir Menshov', 'Aleksandr Ivanovsky', 'Lev Kuleshov', 'Cinema of Russia', 'Aleksandr Medvedkin']
+样本183:
+  Query: Mawson  is an electoral district that includes the wine regional around which town 35 km south of Adelaide?
+  Gold Answer: McLaren Vale
+  Retrieved Titles: ['Electoral district of Mawson', 'Electoral district of Adelaide', 'Electoral district of Port Adelaide', 'Division of Kingston', 'Electoral district of Playford']
+样本184:
+  Query: Bill Bryson grew up in a city that is the seat of which county ?
+  Gold Answer: Polk County
+  Retrieved Titles: ['Bill Bryson Sr.', 'E. Brent Bryson', 'Michael Bryson', 'Bill Campbell (mayor)', 'The Lost Continent: Travels in Small-Town America']
+样本185:
+  Query: Who was President of the United States when Jennifer Hunt served under Secretary of Labor Seth Harris?
+  Gold Answer: Barack Obama
+  Retrieved Titles: ['Jennifer Hunt', 'Seth Harris', 'Susan Whitson', 'Rose Mary Woods', 'Rose Mary Woods']
+样本186:
+  Query: What is the name of the American author, songwriter, educator, lawyer, diplomat, civil rights activist and husband to Grace Nail Johnson who was the first African American executive secretary of the National Association for the Advancement of Colored People (NAACP)?
+  Gold Answer: James Weldon Johnson
+  Retrieved Titles: ['James Weldon Johnson', 'W. E. B. Du Bois', 'James Orange', 'T. R. M. Howard', 'Anthony Johnson (colonist)']
+样本187:
+  Query: In what month was the relief first officer of the flight that crashed on its way to Cairo with a stop in New York Born?
+  Gold Answer: February
+  Retrieved Titles: ['EgyptAir Flight 990', 'American Airlines Flight 587', 'American Airlines Flight 28', 'American Airlines Flight 11', 'Betty Ong']
+样本188:
+  Query: The Tennessee Volunteers football team plays as a member for a conference in what city?
+  Gold Answer: Birmingham, Alabama
+  Retrieved Titles: ['1891 Tennessee Volunteers football team', '1891 Tennessee Volunteers football team', '1992 Tennessee Volunteers football team', '1899 Tennessee Volunteers football team', '1899 Tennessee Volunteers football team']
+样本189:
+  Query: How did Pre's Trail's namesake die?
+  Gold Answer: in an automobile accident
+  Retrieved Titles: ["Pre's Trail", 'Register Cliff', 'Register Cliff', 'Register Cliff', 'Madonna of the Trail']
+样本190:
+  Query: The largest lake in New Hampshire sits how many vertical feet lower than Lake Kanasatka?
+  Gold Answer: nine vertical feet
+  Retrieved Titles: ['Lake Kanasatka', 'Profile Lake', 'Newfound Lake', 'Great East Lake', 'Squam Lake']
+样本191:
+  Query: What year was the midfielder who shot the winning goal in the 2009 DFB-Pokal Final born?
+  Gold Answer: 1988
+  Retrieved Titles: ['2009 DFB-Pokal Final', '2007 DFB-Pokal Final', '2006 DFB-Pokal Final', '2008–09 DFB-Pokal (women)', '1992 DFB-Pokal Final']
+样本192:
+  Query: Who was born first, Grigory Margulis or Leonid Levin?
+  Gold Answer: Gregori Aleksandrovich Margulis
+  Retrieved Titles: ['Rafayel Grach', 'Joshua Höschel ben Joseph', 'Matvey Skobelev', 'Grigory Margulis', 'Alex Mendelssohn']
+样本193:
+  Query: David Thewlis had a performance in the film Macbeth as which father of Malcolm and Donalbain?
+  Gold Answer: King Duncan
+  Retrieved Titles: ['Donalbain (Macbeth)', 'Malcolm (Macbeth)', 'King Duncan', 'King Duncan', 'Macbeth']
+样本194:
+  Query: Who was born first, Juan Rulfo or John le Carré?
+  Gold Answer: Juan Rulfo
+  Retrieved Titles: ['John le Carré: The Biography', 'John le Carré: The Biography', 'John le Carré: The Biography', 'Jefry Marté', "John Thomond O'Brien"]
+样本195:
+  Query: Viscount Yamaji Motoharu was a general in the early Imperial Japanese Army which belonged to which Empire?
+  Gold Answer: Empire of Japan
+  Retrieved Titles: ['Yamaji Motoharu', 'Ogawa Mataji', 'Imperial Japanese Army', 'Imperial Japanese Army', 'Takashima Tomonosuke']
+样本196:
+  Query: Igor Naming Agency named a resort located where?
+  Gold Answer: Las Vegas Strip
+  Retrieved Titles: ['Igor Naming Agency', 'Igor Naming Agency', 'Glacier Park Company', 'Boyne Mountain Resort', 'Energia (corporation)']
+样本197:
+  Query: Mía Maestro had a role in the 2002 biopic directed by whom?
+  Gold Answer: Julie Taymor
+  Retrieved Titles: ['Mía Maestro', 'Maestro (2014 film)', '2002 Cannes Film Festival', 'Jackie Lou Blanco', 'Demonlover']
+样本198:
+  Query: What other jobs did the actress Olivia Munn from Mortdecai have?
+  Gold Answer: model
+  Retrieved Titles: ['Olivia Munn', 'Susanne Pollatschek', 'Andrea Palma (actress)', 'Jane Wymark', 'Jane Wymark']
+样本199:
+  Query: Which came to market first, "Hey Pa! There's a Goat on the Roof" or "Poleconomy"
+  Gold Answer: Hey Pa! There's a Goat on the Roof
+  Retrieved Titles: ["Hey Pa! There's a Goat on the Roof", 'Mountain goat', 'See You at the Pole', 'Tree (installation)', 'New Market and Head House']
+样本200:
+  Query: Who is the Chief Executive Officer of the corporation that owns Space Dev?
+  Gold Answer: Fatih Ozmen
+  Retrieved Titles: ['Donald Bogue', "President's Management Advisory Board", 'Director General of the European Space Agency', 'Mike Lunsford', 'Mike Lunsford']
+
+[分析日志] 第2跳检索分析：
+样本1:
+  Query: In what city does the most successful American and international five-and-dime business have a historic building? 1. **Analyze the question**: We are
+  Gold Answer: Watertown, New York
+  Retrieved Titles: ['List of tallest buildings in the United States', 'American Copper Buildings', 'American Copper Buildings', 'Blair Historic District', 'John Hancock Center']
+样本2:
+  Query: Where did the designer of the Van de Graaff generator teach at? University of Alabama
+  Gold Answer: Princeton University and Massachusetts Institute of Technology
+  Retrieved Titles: ['Van de Graaff generator', 'William T. Van de Graaff', 'William T. Van de Graaff', 'Westinghouse Atom Smasher', 'Louis van Praag']
+样本3:
+  Query: Ælfgifu of Exeter and Ælfgifu of Shaftesbury are both known for being what? 1. **Identify the question**: We are
+  Gold Answer: saint
+  Retrieved Titles: ['Ælfgifu of Exeter', 'Eardwulf of Kent', 'Ælfgifu of Shaftesbury', 'Æthelweard (historian)', 'Æschere']
+样本4:
+  Query: Anthony Avent played basketball fo a High School that is located in a city approcimately 8 mi west of where? 1. Identify the correct pronunciation of
+  Gold Answer: lower Manhattan
+  Retrieved Titles: ['Anthony Avent', 'Ilysiakos B.C.', 'Philadelphia English', 'Mike DiNunno', 'University for International Integration of the Afro-Brazilian Lusophony']
+样本5:
+  Query: Which nationality is the international footballer, born 20 March 1984, who made his breakthrough La Liga debut in the 2002–03 Atlético Madrid season, scoring 13 league goals as a teenager? Born on 20 March 1984
+  Gold Answer: Spanish
+  Retrieved Titles: ['2002–03 Atlético Madrid season', 'José Daniel Valencia', 'Fernando Torres', 'Sergio Torres', 'David Villa']
+样本6:
+  Query: What was the creator of the Moshulu Parkway known as? A) Is "Moshulu" related to one
+  Gold Answer: "master builder" of mid-20th century New York City
+  Retrieved Titles: ['Bonham Road', 'Gongche Shangshu movement', 'Yamaji Motoharu', 'G5511 Jining–Arun Expressway', 'Bronx River Parkway']
+样本7:
+  Query: Who created the series in which Liza Weil played Bonnie Winterbottom? 1. **Identify the character**: Liza Weil
+  Gold Answer: Peter Nowalk
+  Retrieved Titles: ['Bonnie Winterbottom', 'Liza Weil', 'Lacey Chabert', 'Bridget Hoffman', 'Bonnie (TV series)']
+样本8:
+  Query: Which was formed first, Noori or Test Icicles? • Key detail: Formed in 2004
+  Gold Answer: Noori
+  Retrieved Titles: ['Test Icicles', 'Test Icicles', 'For Screening Purposes Only', 'For Screening Purposes Only', 'Nakam']
+样本9:
+  Query: Which film was produced first, Dangal or The Man from Snowy River II? 2. **Analyze provided context**:
+  Gold Answer: The Man from Snowy River II
+  Retrieved Titles: ['The Man from Snowy River II', 'The Man from Snowy River II', 'Return to Snowy River', 'Return to Snowy River', 'The Man from Snowy River (soundtrack)']
+样本10:
+  Query: The Clavivox was invented by an American composer who was born Harry Warnow in what year? 3. **
+  Gold Answer: 1908
+  Retrieved Titles: ['Clavivox', 'Raymond Scott', 'Mark Warnow', 'Ennio Bolognini', 'Ennio Bolognini']
+样本11:
+  Query: SWX Right Now airs on the station that broadcasts on what channel in Billings, Montana? 1. Identify which station you are
+  Gold Answer: 8
+  Retrieved Titles: ['SWX Right Now', 'KXMD-TV', 'WWVA (AM)', 'WYPX-TV', 'WYPX-TV']
+样本12:
+  Query: Which was founded first, University of California, Santa Barbara or Hamdard University? based on the founding dates provided
+  Gold Answer: University of California, Santa Barbara
+  Retrieved Titles: ['University of California, Berkeley', 'Santa Barbara City College', 'Santa Barbara City College', 'University of California', 'California State University, San Bernardino']
+样本13:
+  Query: Does MedStar Washington Hospital Center or Children's National Medical Center have more beds? Children
+  Gold Answer: MedStar Washington Hospital Center
+  Retrieved Titles: ['MedStar Washington Hospital Center', 'MedStar Washington Hospital Center', "Children's National Medical Center", 'MedStar Georgetown University Hospital', 'MedStar Georgetown University Hospital']
+样本14:
+  Query: Olivia DeJonge starred in an American horror film directed by Shyamalan called what based on the answer you provide
+  Gold Answer: The Visit
+  Retrieved Titles: ['The Visit (2015 American film)', 'The Visit (2015 American film)', 'Scare Campaign', 'Irma Vep', 'Gothika']
+样本15:
+  Query: Which college was founded first, Williams College or University of Southern California? Okay, so I need to figure
+  Gold Answer: Williams College
+  Retrieved Titles: ['University of Southern California', 'University of Southern California', 'List of Williams College people', 'University of California, Berkeley', 'California State University']
+样本16:
+  Query: Which has the larger population, Shanghai or Hanggin Rear Banner? To determine which has the larger
+  Gold Answer: Shanghai
+  Retrieved Titles: ['Hanggin Rear Banner', 'Urad Rear Banner', 'Hanggin Banner', 'Old Barag Banner', 'Horqin Left Rear Banner']
+样本17:
+  Query: Which cast member of Pitch Perfect 2 was born March 9, 1986? Okay, let's tackle this question. The
+  Gold Answer: Brittany Snow
+  Retrieved Titles: ['Kelley Jakle', 'Pitch Perfect 2', 'Pitch Perfect 2', 'Shelley Regner', 'Pitch Perfect 3']
+样本18:
+  Query: What group released a song called "Stinkfist" on September 17, 1996? Step 1: ???' (e.g., Okay, let's
+  Gold Answer: Tool
+  Retrieved Titles: ['The Stinky Puffs', 'That Smell', 'Love Stinks (song)', 'L7 discography', 'Hope Sandoval &amp; the Warm Inventions']
+样本19:
+  Query: What Estonian composer whose music is partly inspired by Gregorian chant set the Latin text of the Magnificat canticle in 1989? 1. In the question, we are
+  Gold Answer: Arvo Pärt
+  Retrieved Titles: ['Arvo Pärt', 'Magnificat (Pärt)', 'Veljo Tormis', 'Meine Seele erhebt den Herren', 'Gregorian chant']
+样本20:
+  Query: Be Quick '28  football club is locayed in what province? We need to determine the Dutch
+  Gold Answer: Overijssel
+  Retrieved Titles: ["Be Quick '28", 'ASV De Dijk', "Quick '20", "Zwart-Wit '28", 'Marloes de Boer']
+样本21:
+  Query: Sian Gibson co-wrote which British sitcom, set around a supermarket and car share scheme? one step
+  Gold Answer: Peter Kay's Car Share
+  Retrieved Titles: ['Sian Gibson', "Peter Kay's Car Share", 'Gibson (cocktail)', 'Meet Market (film)', 'Mel Gibson filmography']
+样本22:
+  Query: Of all the teams John Nyskohus played for, which team was known as "the Black and Whites?" 1. Identify the key phrase "the
+  Gold Answer: Adelaide City
+  Retrieved Titles: ['John Nyskohus', '1942 Negro World Series', 'List of ethnic sports team and mascot names', 'Bert Coan', 'New York Cubans']
+样本23:
+  Query: Carlos Hasselbaink is the older brother of the footballer of what nationality? only one answer
+  Gold Answer: Dutch
+  Retrieved Titles: ['Carlos Hasselbaink', 'Jorge Enríquez', 'Carlos Cunha', 'Carlos Canário', 'Carlos Cabezas']
+样本24:
+  Query: Where is the historic meeting venue built in a style taught at the Ecole des Beaux-Arts? 1. **Understand the question**: We are
+  Gold Answer: First Street
+  Retrieved Titles: ['Parc des Expositions de Villepinte', 'Dom-Hotel', 'Musée des Arts décoratifs, Strasbourg', 'Beaux-Arts architecture', 'Musée Henri-Mathieu']
+样本25:
+  Query: Buck Rogers XXVC is a published campaign setting or a homebrew campaign setting? 1. First, I need to identify
+  Gold Answer: published campaign settings
+  Retrieved Titles: ['Buck Rogers XXVC', 'Campaign setting', 'The Campaign (film)', 'Spuds MacKenzie', 'Buck Rogers: Countdown to Doomsday']
+样本26:
+  Query: What is the relation between current manager of Chinese club Tianjin Quanjian and Paolo Cannavaro? 1. Get the results for "Paolo
+  Gold Answer: brother
+  Retrieved Titles: ['Fabio Cannavaro', 'Fabio Cannavaro', '2017 Tianjin Quanjian F.C. season', '2017 Tianjin Quanjian F.C. season', 'Paolo Cannavaro']
+样本27:
+  Query: Oak Beach, New York and Great South Bay are both situated between what same island? 1. **Identify the key elements**: We
+  Gold Answer: Long Island
+  Retrieved Titles: ['Oak Beach, New York', 'Great South Bay', 'South Oyster Bay', 'Lower South Bay, New York', 'Oak Beach–Captree, New York']
+样本28:
+  Query: Wrinkles is a song that was recorded by what American country and Christian country band that was founded in 1982? 1. Identify the genre of the
+  Gold Answer: Diamond Rio
+  Retrieved Titles: ['Wrinkles (song)', 'Wrinkles (toy)', 'Around the Bend (album)', 'Wrangled', 'Country Shindig']
+样本29:
+  Query: Where did the descendants of the group of black Indians associated with the Seminole people settle? 1. Identify that the question refers
+  Gold Answer: Coahuila, Mexico
+  Retrieved Titles: ['Black Seminoles', 'Seminole', 'Black Indians in the United States', 'Seminole music', 'Seminole Nation of Oklahoma']
+样本30:
+  Query: What criteria subjectively qualifies the Houston Astrodome to be called the Eighth Wonder of the World? either a direct answer or a
+  Gold Answer: comparable to the seven Wonders of the World
+  Retrieved Titles: ['Astrodome', 'Astrodome', 'Eighth Wonder', 'WrestleMania X8', 'Fundamental Astronomy']
+样本31:
+  Query: Where is the home of the common party princess voiced by Idina Menzel? 1. **Identify the common princess**: First
+  Gold Answer: Arendelle
+  Retrieved Titles: ['Idina Menzel: Live at Radio City', 'Idina Menzel: Live at Radio City', 'Idina Menzel: World Tour', 'Idina 2017 world tour', 'Princess Gardens']
+样本32:
+  Query: What station broadcast the episode "Marry Me a Little, Marry Me a Little More" , of the series created by Max Mutchnick and David Kohan? 1. What network/broadcasters are associated with
+  Gold Answer: National Broadcasting Company
+  Retrieved Titles: ['Marry Me a Little, Marry Me a Little More', 'Wedding (TV series)', "Yasmin's Getting Married", 'The Wedding Bride', 'David Kohan']
+样本33:
+  Query: Flynn Rider is voiced by which American actor and singer born September 29, 1980? 1. Check if the given data
+  Gold Answer: Zachary Levi
+  Retrieved Titles: ['Flynn Rider', 'Mehrdad Raissi Ardali', 'Townsend Coleman', 'Jimmy Butler (actor)', 'Ben Pronsky']
+样本34:
+  Query: Vestfold and Telemark each border what other Norwegian county? exactly one sentence per step
+  Gold Answer: Buskerud
+  Retrieved Titles: ['Upper Telemark', 'Norwegian County Road 3', 'Norwegian County Road 3', 'Tjølling', 'Norddalsfjorden']
+样本35:
+  Query: How many books are in the text composed by the founder Nyaya school of Hindu philosophy and is used in the development of Indian logic? based on the document provided, what
+  Gold Answer: five books
+  Retrieved Titles: ['Indian logic', 'Nyāya Sūtras', 'Dignāga', 'Udyotakara', 'Buddhist logic']
+样本36:
+  Query: The Story of Them Featuring Van Morrison is a compilation album recorded by what Northern Irish band formed in Belfast in April 1964? 1. Identify the subject: The question
+  Gold Answer: Them
+  Retrieved Titles: ['The Story of Them Featuring Van Morrison', 'Them (band)', 'Them Again', 'Van Morrison in Ireland', 'The Caledonia Soul Orchestra']
+样本37:
+  Query: In which part of Attica was the battle of Marathon in 490 BC fought? 1. Identify the question as asking
+  Gold Answer: northeastern
+  Retrieved Titles: ['Battle of Marathon', 'Marathon, Greece', 'Callimachus (polemarch)', 'Battle of the Colline Gate (82 BC)', 'Battle of the Allia']
+样本38:
+  Query: Lost in Time includes the theme song for a French/Japanese anime series that was created by who? 1. Validate if "Lost in Space
+  Gold Answer: Savin Yeatman-Eiffel
+  Retrieved Titles: ['List of Tytania episodes', 'Cutie Cinema Replay', 'Space Channel 5', 'Lost on Earth', 'The Mystery of Time']
+样本39:
+  Query: Which facility was founded in Missouri, Discovery Zone or Valentino's? one step with an explanation of
+  Gold Answer: Discovery Zone
+  Retrieved Titles: ["Valentino's", 'Corps of Discovery', 'Discovery Zone', 'Route 66 State Park', 'Catalyst Science Discovery Centre']
+样本40:
+  Query: The actor of Professor Sprout in "Harry Potter" acted as a mother in a sitcom. In that sitcom, what was the daughter's name? A:
+  Gold Answer: Fran
+  Retrieved Titles: ['Miriam Margolyes', 'Miriam Margolyes', 'List of Father Ted characters', 'List of Harry Potter cast members', 'Dermot Morgan']
+样本41:
+  Query: What is the name of the basketball team that trained under assistant coach, Steven Michael Henson at the University of Oklahoma ? **First, we know that the question
+  Gold Answer: Oklahoma Sooners men's basketball
+  Retrieved Titles: ['Steve Henson', 'Ken Hayes', 'Josh Heupel', 'Josh Heupel', 'Steve Payne (basketball)']
+样本42:
+  Query: Which of the following works was completed first, Something Wicked This Way Comes or The Wind in the Willows? 1. Check the publication dates of
+  Gold Answer: The Wind in the Willows
+  Retrieved Titles: ['Something Wicked This Way Comes (film)', 'Something Wicked This Way Comes (film)', 'The Willows at Christmas', 'Something Wicked This Way Comes (Cold EP)', 'Something Wicked This Way Comes (novel)']
+样本43:
+  Query: For which band, was the female member of Fitz and The Tantrums, the front woman for ten years ? 1. Identify what makes someone be
+  Gold Answer: The Rebirth
+  Retrieved Titles: ['Fitz and the Tantrums discography', 'Michael Fitzpatrick (musician)', 'Michael Fitzpatrick (musician)', 'Fitz and The Tantrums', 'Fitz and The Tantrums']
+样本44:
+  Query: In what year was the singer whose second remix album was "Hannah Montana Hits Remixed" born? 1. Identify which singer's work corresponds
+  Gold Answer: 1992
+  Retrieved Titles: ['Hannah Montana Hits Remixed', 'Hannah Montana 2: Non-Stop Dance Party', 'Hannah Montana 2: Meet Miley Cyrus', 'Hannah Montana 2: Meet Miley Cyrus', 'The Best of Both Worlds (song)']
+样本45:
+  Query: In what county did Michael Ola attend high school? A person who plays multiple sports
+  Gold Answer: Clayton County, Georgia, United States
+  Retrieved Titles: ['Michael Ola', 'Mike Edwards (basketball)', 'Obi Egekeze', 'Michael Yessis', 'Mike Thomas (athletic director)']
+样本46:
+  Query: Which battle took place closer to New York City, Battle of Fredericksburg or the Western Allied invasion of Germany ? **What defines 'closer to' in this
+  Gold Answer: Battle of Fredericksburg
+  Retrieved Titles: ['Western Allied invasion of Germany', 'Western Allied invasion of Germany', 'Battle of Germantown', 'Battle of Berlin', 'Battle of Kiev (1941)']
+样本47:
+  Query: Faruk Halibegovic was born in what city that is the capital and largest city of Bosnia and Herzegovina with a population of 275,524? 1. To identify the city where
+  Gold Answer: Sarajevo
+  Retrieved Titles: ['Sarajevo', 'Bosniac National Council', 'Banja Luka', 'National Gallery of Bosnia and Herzegovina', 'Višegrad']
+样本48:
+  Query: When was the first stud book created for the breed of horse that came from Rotrou introducing Arabian horses to Perche? 4
+  Gold Answer: 1883
+  Retrieved Titles: ['Percheron', 'Rotrou III, Count of Perche', 'Crabbet Arabian Stud', 'Sella Italiano', 'Sella Italiano']
+样本49:
+  Query: The song Justice was used for a WWE event that took place on what day ? 1. Identify the relevant document containing
+  Gold Answer: May 1, 2011
+  Retrieved Titles: ['Justice (Rev Theory album)', 'WrestleMania IX', 'Royal Rumble (1999)', 'WrestleMania XXX', 'WrestleMania XXX']
+样本50:
+  Query: Who directed the film where Susanne Pollatschek voiced Olivia Flaversham? First
+  Gold Answer: Burny Mattinson, David Michener, and the team of John Musker and Ron Clements
+  Retrieved Titles: ['Susanne Pollatschek', 'Bridget Hoffman', 'Rebecca Rigg', 'Katherine Waterston', 'Anna Karenina (2012 film)']
+样本51:
+  Query: When was the folk dance style Johannes Brahms' Liebeslieder Waltzes were written for most popular? 2. **Break down components**:
+  Gold Answer: end of the 18th century
+  Retrieved Titles: ['Liebeslieder, Op. 114 (Strauss)', 'Liebeslieder Walzer, Op. 52 (Brahms)', 'Sixteen Waltzes, Op. 39 (Brahms)', 'Wiener Carneval', 'Neue Liebeslieder']
+样本52:
+  Query: Which hospital, the Psychiatric Institute of Washington or Howard University Hospital, is known for serving the African American community including former slaves? 1. Identify which document provides information
+  Gold Answer: Howard University Hospital
+  Retrieved Titles: ['Howard University Hospital', "The New Freedmen's Clinic", 'Charles DeWitt Watts', 'Psychiatric Institute of Washington', 'New York State Psychiatric Institute']
+样本53:
+  Query: Nick Jr Too was launched on the same day as what rival channel that was created by Turner Broadcasting, and is the sister station of Cartoon Network? 1. Identify the key question parts:
+  Gold Answer: Cartoon Network Too
+  Retrieved Titles: ['Nick Jr. Too', 'Nickelodeon (Japan)', 'Cartoon Network (South Korea)', 'Cartoon Network Too', 'Cartoon Network Too']
+样本54:
+  Query: Band-e-Amir Dragons is named after the lakes in which Afghan national park? 1. Identify what the name "Band-e-Amir
+  Gold Answer: Band-e Amir National Park
+  Retrieved Titles: ['Band-e-Amir Dragons', 'Arif Khan (cricketer)', 'Shahidullah (cricketer)', 'Ikram Faizi', 'Qasim Oryakhail']
+样本55:
+  Query: KSCW-DT is part of a duopoly with which virtual channel 12 in Wichita? only one sentence per step
+  Gold Answer: KWCH-DT
+  Retrieved Titles: ['KSCW-DT', 'KWCH-DT', 'KDCU-DT', 'KSQA', 'KCTV']
+样本56:
+  Query: Victor Varnada directed Twisted Fortune, which starred which brother of Eddie Murphy? 1. **Identify the connection between Victor
+  Gold Answer: Charlie Murphy
+  Retrieved Titles: ['Twisted Fortune', 'Oliver Stokes', 'Dominic West', 'Family Fortunes (Irish TV series)', 'Alan Hughes (presenter)']
+样本57:
+  Query: Q: What 1965-born field director directed the 2002 Indian comedy horror film "Makdee" ("Spider", in English)? F optics
+  Gold Answer: Vishal Bhardwaj
+  Retrieved Titles: ['Makdee', 'Science fiction films in India', 'Science fiction films in India', 'Mahesh Manjrekar', 'Aparichithan']
+样本58:
+  Query: Who was the original female founder of the brewery that was purchased in 2006 by the largest brewery in the state of Maryland? 1. **Identify the largest brewery in
+  Gold Answer: Marjorie McGinnis
+  Retrieved Titles: ['Flying Dog Brewery', 'National Brewing Company', 'Gunther Brewing Company', 'Brewery', 'Metropolitan Brewing']
+样本59:
+  Query: What film studio produced both National Treasure and The Computer Wore Tennis Shoes? 1. Identify the production companies associated
+  Gold Answer: Walt Disney Pictures
+  Retrieved Titles: ['The Computer Wore Tennis Shoes (1995 film)', 'The Computer Wore Tennis Shoes', 'Celebration of Annihilation', 'National Treasure (film)', 'National Treasure (film)']
+样本60:
+  Query: The composer of the music for the ballet "The Seasons"  was the director of what organization from 1905 to 1928? 3. **Find the
+  Gold Answer: Saint Petersburg Conservatory
+  Retrieved Titles: ['Pierre Monteux', 'New York City Ballet', 'List of La valse casts', 'The Rite of Spring', 'American Ballet']
+样本61:
+  Query: What kind of beverage does Planter's Punch and Black Velvet have in common? 1. Identify what is mentioned about
+  Gold Answer: cocktail
+  Retrieved Titles: ['Punch (drink)', 'Clover Club Cocktail', 'Winter melon punch', 'Green Russian', 'Pink Gin']
+样本62:
+  Query: What is the population of the town at the intersection of Interstate Highways 77 and  the longest Interstate highway within the borders of Virginia? First, I need to find which
+  Gold Answer: 8,211 at the 2010 census
+  Retrieved Titles: ['Interstate 81 in Virginia', 'Virginia State Route 51', 'Interstate 85 in Virginia', 'Interstate 85 in Virginia', 'Virginia State Route 56']
+样本63:
+  Query: Ara Berberian sand for which role an opera by Giuseppe Verdi? just state what you are looking
+  Gold Answer: Sparafucile
+  Retrieved Titles: ['Ara Berberian', "Giovanna d'Arco", 'Almerindo Spadetta', 'Giovacchino Forzano', 'Rolando Panerai']
+样本64:
+  Query: High School Confidential, an eight part documentary followed twelve high school teenagers from a high school in Overland Park, Kansas that ranked what in the 2009 Newsweek ranking of the top 1,500 high schools in the United States? 1. Identify the location of the
+  Gold Answer: #364
+  Retrieved Titles: ['High School Confidential (TV series)', 'Blue Valley Northwest High School', 'Black River High School', 'Rio Hondo High School', 'A. Philip Randolph Campus High School']
+样本65:
+  Query: What is the city in which Bauerfield International Ariport is based out of? Is "Port Vila" considered part of
+  Gold Answer: Port Vila
+  Retrieved Titles: ['Bauerfield International Airport', 'Air Vanuatu', 'Grantley Adams International Airport', 'Grantley Adams International Airport', 'Grantley Adams International Airport']
+样本66:
+  Query: Reeves Plains Power Station is a proposal from a company owned by who? 1. **Identify the ownership structure**: We
+  Gold Answer: Chow Tai Fook Enterprises
+  Retrieved Titles: ['Reeves Plains Power Station', 'North American Light and Power Company', 'Wiregrass Electric Cooperative', 'Millmerran Power Station', 'Clean Power Finance']
+样本67:
+  Query: What was the arena, in which the 2017 Brit Awards were held, called during the 2012 Olympics ? The arena, in which the 2012 Olympics were held
+  Gold Answer: North Greenwich Arena
+  Retrieved Titles: ['2012 Summer Olympics', '2017 Brit Awards', '2012 British Academy Television Awards', '2012 in athletics (track and field)', '2018 Brit Awards']
+样本68:
+  Query: Are Siping, Jilin and Linhai both in the same province in China? No, Siping, Jilin, and Linhai are not all in the proper order or location within the question
+  Gold Answer: no
+  Retrieved Titles: ['Siping, Jilin', 'Siping Railway Station', 'Tiexi District, Siping', 'Jilin Normal University', 'Changtu County']
+样本69:
+  Query: The 2017 European Short Course Swimming Championships will be held in an Arena which began construction when? 2004: Vienna - Wiener Stadthalle
+  Gold Answer: 26 June 2013
+  Retrieved Titles: ['2004 European Short Course Swimming Championships', '2017 European Short Course Swimming Championships', '2007 European Short Course Swimming Championships', 'European Short Course Swimming Championships', 'Swedish Short Course Swimming Championships']
+样本70:
+  Query: Love Thy Neighbor starred an AMerican actor who was best known for his role as Jack Tripper on what sitcom? 2. **Review provided documents**:
+  Gold Answer: Three's Company
+  Retrieved Titles: ['Love Thy Neighbor (1940 film)', 'List of Love Thy Neighbor episodes', 'Patrice Lovely', 'Darmirra Brunson', 'Everett Greenbaum']
+样本71:
+  Query: Which American pro basketball player who won gold at the 2008 Summer Olympics was signed by the Utah Jazz during the 2005-05 offseason? A Utah Jazz signing during the
+  Gold Answer: Carlos Austin Boozer Jr.
+  Retrieved Titles: ["2008 United States men's Olympic basketball team", 'George Mikan', 'Jerry West', '2008–09 Phoenix Suns season', '2008–09 Phoenix Suns season']
+样本72:
+  Query: Tryon D. Lewis is a lawyer from Odessa, Texas which is located in what county? Jasper County
+  Gold Answer: Ector County
+  Retrieved Titles: ['Tryon D. Lewis', 'Brooks Landgraf', 'Lewisville, Texas', 'Jean Hudson Boyd', 'Tryon, Gaston County, North Carolina']
+样本73:
+  Query: What American filmmaker was the co-founder of Troma Entertainment film studio, Stanley Lloyd Kaufman, Jr. or Jay T. Wright? 1. Identify the two names mentioned
+  Gold Answer: Stanley Lloyd Kaufman, Jr.
+  Retrieved Titles: ['Lloyd Kaufman', 'Lloyd Kaufman', 'Troma Entertainment', 'Pat Swinney Kaufman', 'List of Troma Team Video Titles']
+样本74:
+  Query: Who acted in the film and television series, "Harry and the Hendersons," and also worked with Danny Glover? **Hint: The question asks about someone
+  Gold Answer: Kevin Peter Hall
+  Retrieved Titles: ['Harry and the Hendersons (TV series)', 'Kevin Peter Hall', 'List of Harry Potter cast members', 'Harry Cheshire', 'Harry Landers']
+样本75:
+  Query:  Jason Regler, stated that he had the idea for the flashing wristbands during a song built around which instrument ? Yes, the question asks about a song built around which instrument, but the provided documents do not explicitly state the name of the song where Jason Regler got the idea for the flashing wristbands
+  Gold Answer: an organ
+  Retrieved Titles: ['Xyloband', 'Teketzis', 'Flashing Lights (Kanye West song)', 'Raymond Scott', 'Pulse (Greg Phillinganes album)']
+样本76:
+  Query: How long did the career span of the actor who starred with Mickey Rooney and Marilyn Maxwell in Off Limits? 1. **Identify the actor**: From the
+  Gold Answer: nearly 80 years
+  Retrieved Titles: ['Off Limits (1953 film)', 'George Eldredge', 'The Mickey Rooney Show', 'Arthur Jensen (actor)', "Mickey's Helping Hand"]
+样本77:
+  Query: The Cineplex Odeon Theatres are now operated as which American movie theater chain majority-owned by Chinese conglomerate Dalian Wanda Group? 4. From the
+  Gold Answer: AMC Theatres
+  Retrieved Titles: ['Cineplex Odeon Corporation', 'AMC Theatres', 'Wanda Group', 'Cineplex Odeon Films', 'Wanda Media']
+样本78:
+  Query: Who founded Methodism along with the man who was also part of the revival movement in England and the Great Awakening in the United States? Okay, let me try to figure
+  Gold Answer: George Whitefield
+  Retrieved Titles: ['List of Methodist churches in the United States', 'Second Great Awakening', 'Thomas Campbell (minister)', 'Revival of 1800', 'Oxford Movement']
+样本79:
+  Query: What party was Johan Henrik Deuntzer a part of before the party that translates to the "Radical Left?" 1. Identify what the "Radical Left
+  Gold Answer: Liberal "Venstre" party
+  Retrieved Titles: ['Johan Henrik Deuntzer', 'Radical Left Front', 'Radical Left (France)', 'Cabinet of Deuntzer', 'Hans van Mierlo']
+样本80:
+  Query: Kevin Watson currently manages which Southern League football team? I cannot yet identify the answer
+  Gold Answer: Bishop's Stortford
+  Retrieved Titles: ['Kevin Warren', 'Kevin Beard', 'Kevin Bullis', 'Kevin Sloan', 'Kevin Kelly (coach)']
+样本81:
+  Query: Li Yitong made her television debut on which network? only what you need to know
+  Gold Answer: Dragon TV
+  Retrieved Titles: ['Li Yitong (singer)', 'Li Yitong (actress)', 'Li Yitong (actress)', 'Zhu Xun', 'Wong Li-Lin']
+样本82:
+  Query: The Dukes of Hazzard was inspired by the 1975 film starring whom? 1. Identify what exactly is being
+  Gold Answer: James Mitchum
+  Retrieved Titles: ['The Dukes of Hazzard', 'Moonrunners', 'The Midnight Man (1974 film)', 'The Wild Party (1975 film)', 'Revolver (2005 film)']
+样本83:
+  Query: How many total staff (including part-time, flexible, and fixed contract staff) does the broadcaster, who released HyperNormalisation, employ? one step
+  Gold Answer: 35,402
+  Retrieved Titles: ['BBC', 'BBC', 'BBC', 'Ekstra Weekend', 'Hlaudi Motsoeneng']
+样本84:
+  Query: Which 18th-century canal was longer, the Sandy and Beaver Canal in Ohio or New Jersey's Morris Canal? Step 2: To ensure accuracy
+  Gold Answer: Morris Canal
+  Retrieved Titles: ['Sandy and Beaver Canal', 'Sandy and Beaver Canal', 'Morris Canal', 'Beaver and Erie Canal', 'Beaver and Erie Canal']
+样本85:
+  Query: Did Qionghai or Suining  have a population of 658,798 in 2002?  1. First, I compared both cities
+  Gold Answer: In 2002, Suining had a population of 658,798.
+  Retrieved Titles: ['Suining', 'Qinyang', 'Huaihua', 'Gongqingcheng', 'Liaoyuan']
+样本86:
+  Query: The project that Jeder Rappen zählt is inspired by began in what year? We need to find the origin
+  Gold Answer: 2004
+  Retrieved Titles: ['Jeder Rappen zählt', 'Aaron Fechter', 'Tarbiyat (magazine)', 'Zaj', 'History of Saudi Arabia &amp; Wahabism']
+样本87:
+  Query: Which composer was a French Romantic composer in the 1800's, Hector Berlioz or Gaetano Donizetti? 1. First, I need to identify
+  Gold Answer: Louis-Hector Berlioz
+  Retrieved Titles: ['Berlioz (disambiguation)', 'Hector Berlioz', 'Mémoires (Berlioz)', 'Gaetano Rossi', 'Gaetano Rossi']
+样本88:
+  Query: Kurt Cobain: Montage of Heck documents the life of Cobain until his suicide in what state? one step with multiple possibilities or
+  Gold Answer: Washington
+  Retrieved Titles: ['Kurt Cobain: Montage of Heck', 'Kurt Cobain: Montage of Heck', 'Kurt Cobain: Montage of Heck', 'Montage of Heck: The Home Recordings', 'Suicide of Kurt Cobain']
+样本89:
+  Query: did Robert Wise have more award nominations than Zoltan Korda? 1. To determine if Robert Wise
+  Gold Answer: yes
+  Retrieved Titles: ['Robert Karvelas', 'Zoltan Korda', 'Zoltan Korda', 'List of awards and nominations received by Wizkid', 'Henk Buck']
+样本90:
+  Query: What speech by Abraham Lincoln was part of Richard Heffner's A Documentary History of the United States? 1. **Identify the core question**: The
+  Gold Answer: Gettysburg Address
+  Retrieved Titles: ['Richard Heffner', 'Richard Heffner', 'Richard Heffner', 'Theodor von Heuglin', 'C. Vann Woodward']
+样本91:
+  Query: The second studio album by The D.O.C was named as a reference to Charles Manson's idea of a Beatles' song which was a product of McCartney's attempt to create what kind of sound?   
+  Gold Answer: as loud and dirty as possible
+  Retrieved Titles: ['Helter Skelter (album)', 'Helter Skelter (Manson scenario)', 'Original Sound', 'The Manson Family Album', 'Jürgen Vollmer']
+样本92:
+  Query: Which British music producer and engineer is notable for working wih an English electronic band having the founders: Dave Gahan, Martin Gore, and Andy Fletcher? A) First, identify the person mentioned
+  Gold Answer: Gareth Jones
+  Retrieved Titles: ['Lloyd Dunn', 'Charlie Harper (singer)', 'Ian MacKaye', 'Brad Elterman', 'Raymond Scott']
+样本93:
+  Query: What else was Baghdad known as during the Abbasid Caliphate? A) Identify what type of artifact
+  Gold Answer: the City of Peace
+  Retrieved Titles: ['About Baghdad', 'Baghdad', 'Abbasid invasion of Asia Minor (806)', "Abna' al-dawla", 'Baghdad Jewish Arabic']
+样本94:
+  Query: What is the name of the show that the man that was drafted eighth overall in the 1995 NFL Draft co-hosts? Document <Curt Menefee
+  Gold Answer: College Football Scoreboard
+  Retrieved Titles: ['Curt Menefee', '1999 NFL Draft', 'Michael Strahan', '1993 Major League Baseball draft', '2009 NFL Draft']
+样本95:
+  Query: Which river flows next to the German town where the music project "I Drink My Coffee Alone" by Alex Gazin originates from? ### Final Answer
+  Gold Answer: Moselle
+  Retrieved Titles: ['I Drink My Coffee Alone', 'List of rivers of Germany', 'Boyne River (Michigan)', 'Gorky Reservoir', 'Kamienna (river)']
+样本96:
+  Query: Tritonia and Phyteuma are both names for a what of plants? ## Correct answer:
+  Gold Answer: genus
+  Retrieved Titles: ['Tritoniopsis', 'Tritonia (plant)', 'Phyteuma', 'Tricyrtis', 'Stillingia']
+样本97:
+  Query: Along which river is the Kentucky Department of Corrections headquarted? if you were to look at
+  Gold Answer: Kentucky River
+  Retrieved Titles: ['Kentucky Department of Corrections', 'Kentucky Department of Criminal Investigation', 'Louisville Metro Department of Corrections', 'Kentucky Correctional Institute for Women', 'Kentucky State Penitentiary']
+样本98:
+  Query: The Experts stars what actor known for "Saturday Night Fever" and "Grease"? 1. **Identify the movie**: We are
+  Gold Answer: John Travolta
+  Retrieved Titles: ['Saturday Night Fever', 'Grease (film)', 'Joseph Cali', 'Saturday Night Fever (soundtrack)', 'Night Fever']
+样本99:
+  Query: Ithihasa and the Indian music composer of  "Chronic Bachelor", "Udayananu Tharam", "Naran", "Puthiya Mukham," "Urumi", "Grandmaster" and "Bhaskar the Rascal" are known in what type of films/cinema? Okay, let me try to figure
+  Gold Answer: Malayalam
+  Retrieved Titles: ['Deepak Dev', 'Aagadu (soundtrack)', 'Samhita (film)', 'Raju Adhikari (Film Director)', 'Manorama (Tamil actress)']
+样本100:
+  Query: What year was the player the Los Angeles Clippers aquired from the Atlanta Hawks born? **Step 1: Identify the relevant section**
+  Gold Answer: 1961
+  Retrieved Titles: ['1993–94 Los Angeles Clippers season', 'List of Los Angeles Clippers seasons', 'List of Los Angeles Clippers seasons', '2012–13 Los Angeles Clippers season', '2016–17 Atlanta Hawks season']
+样本101:
+  Query: How many students were enrolled in American professional bowler Chris Barnes' high school in the 2010-2011 school year? 1. Identify that the question asks
+  Gold Answer: 1,840 students
+  Retrieved Titles: ['Chris Barnes (bowler)', 'Brisbane State High School', 'Harrison Barnes', 'Oliver Wendell Holmes Junior High School', 'David R. Cheriton School of Computer Science']
+样本102:
+  Query: Who was the electoral division that James Tully  represented in 1928 named after? 1. Identify the connection between James
+  Gold Answer: Sir Edmund Barton
+  Retrieved Titles: ['Electoral (Amendment) Act 1974', 'Newark by-election, 2014', 'English general election, 1685', 'Jim Harrison (politician)', 'Jim Harrison (politician)']
+样本103:
+  Query: MadMaze was developed by Eric Goldberg as what type of game?  1. Identify the connection between Eric
+  Gold Answer: role-playing game
+  Retrieved Titles: ['MadMaze', 'MadMaze', 'Eric Goldberg (game designer)', 'Eric Goldberg (animator)', 'Eric Radomski']
+样本104:
+  Query: Saturn AL-31 is an engine that powers the aircraft produced in what country? 1. Identify the relevant document containing
+  Gold Answer: China
+  Retrieved Titles: ['Saturn AL-31', 'Airbus A310', 'Saturn II', 'Saturn V Instrument Unit', 'Saturn I']
+样本105:
+  Query: What American corporation owns Claim Jumper? A: Claim Jumper is wholly owned
+  Gold Answer: Landry's
+  Retrieved Titles: ['Claim Jumper', 'Jumper (2008 film)', 'Ugg boots trademark dispute', 'SAS Group', 'Stealing Share']
+样本106:
+  Query: Who composed music for this 1941 American animated film with the main character of Jumbo Jr.? Jumbo Jr
+  Gold Answer: Dan Crow
+  Retrieved Titles: ['Jumbo (film)', 'Leon Schlesinger', 'Jujiro', 'Hans Zimmer', 'Jim Jinkins']
+样本107:
+  Query: Which American film actor and dancer starred in the 1945 film Johnny Angel? 1. Identify the character of interest:
+  Gold Answer: George Raft
+  Retrieved Titles: ['Johnny Angel', 'José Baviera', 'Jimmy Butler (actor)', 'The Angel Levine', 'The White Angel (1943 film)']
+样本108:
+  Query: Hermann Wilhelm Göring was a veteran fighter pilot in a war that ended in what year? 1. Identify the question's focus
+  Gold Answer: 1918
+  Retrieved Titles: ['Werner Goering', 'Hermann Göring', 'Hermann Göring', 'Manfred von Richthofen', 'The Red Fighter Pilot']
+样本109:
+  Query: Caprice No. 5 was composed by what Italian violinist, guitarist, and composer, who was the most celebrated violin virtuoso of his time? 2. **Confirm
+  Gold Answer: Niccolò (or Nicolò) Paganini
+  Retrieved Titles: ['Niccolò Paganini', 'Alessandro Rolla', 'Eugenio Cavallini', 'Eugenio Cavallini', 'Eugenio Cavallini']
+样本110:
+  Query: What is the translation of the name of the river on which Widnes is located ? Okay, let's tackle this question step
+  Gold Answer: boundary river
+  Retrieved Titles: ['List of rivers of Germany', 'Leda (river)', 'Brynderwyn Range', 'Tsirku River', 'River Welland']
+样本111:
+  Query: Which film was released first: Sacred Planet or Oz the Great and Powerful? Step 2: Compare the release years
+  Gold Answer: Sacred Planet
+  Retrieved Titles: ['Sacred Planet', 'Oz the Great and Powerful', 'The Marvelous Land of Oz', 'Epic (2013 film)', 'Epic (2013 film)']
+样本112:
+  Query: What Mexican actress of film, television, and theatre was a protagonist in La Heredera? 1. **Identify the main subject**: The
+  Gold Answer: Silvia Navarro
+  Retrieved Titles: ['La heredera (Venezuelan telenovela)', 'La heredera', 'Gisela Ponce de León', 'Andrea Palma (actress)', 'Comedy in the Golden Age of Mexican cinema']
+样本113:
+  Query: Are both Ride a Wild Pony and Frozen 2 computer-animated films? 2. **Analyze each document's relevance**:
+  Gold Answer: no
+  Retrieved Titles: ['The Simpsons Ride', 'Frozen 2', 'Ride a Wild Pony', 'Ride Along 2', 'Ride Along 2']
+样本114:
+  Query: How does this series represent a function, which is also used in the Homotopy analysis method? First, I need to identify what
+  Gold Answer: infinite sum of terms
+  Retrieved Titles: ['Homotopy analysis method', 'A¹ homotopy theory', 'Hahn series', 'Sturm series', 'Frobenius solution to the hypergeometric equation']
+样本115:
+  Query: What country is the singer from, who duets with Dave Hemingway on the song "A Little Time"? 1. Identify the artist associated with
+  Gold Answer: Northern Irish
+  Retrieved Titles: ['A Little Time', 'Dave Hemingway', 'Takes a Little Time (Amy Grant song)', 'Takes a Little Time (Total Contrast song)', 'Jack Little (songwriter)']
+样本116:
+  Query: The Trappist Abbey of Achel produces and sells what as an "Authentic Trappist Product"? 1. **Analyze the question**: We are
+  Gold Answer: Trappist beer
+  Retrieved Titles: ['Achel Abbey', 'Trappist beer', 'Hamont-Achel', 'Achel Brewery', 'Zundert (beer)']
+样本117:
+  Query: An english lawyer had Christopher Mont as an agent and was awarded denization where? From the text, we know that
+  Gold Answer: England
+  Retrieved Titles: ['Christopher Mont', 'John Anstey (poet)', 'WN Hillas &amp; Co Ltd v Arcos Ltd', 'Guido Coen', "English rule (attorney's fees)"]
+样本118:
+  Query: Who is the lead vocalist for Maroon 5's sixth studio album? 1. **Identify the question**: We are
+  Gold Answer: Adam Levine
+  Retrieved Titles: ['Maroon 5 discography', 'Maroon 5 discography', "Maroon 5's sixth studio album", 'Overexposed (album)', 'V (Maroon 5 album)']
+样本119:
+  Query: which plant has the highest specie  Panicum or Populus  just one sentence per line starting
+  Gold Answer: Panicum
+  Retrieved Titles: ['List of Panicum species', 'Panicum antidotale', 'Panicum capillare', 'Panicum lycopodioides', 'Coleataenia']
+样本120:
+  Query: What position in the court does the Professor of Law at the Interdisciplinary Center in Herzliya hold? only one sentence per step
+  Gold Answer: Supreme Court Judge
+  Retrieved Titles: ['Interdisciplinary Center Herzliya', 'Radzyner Law School', 'Aharon Barak', 'Marc Galanter', 'Bimal N. Patel']
+样本121:
+  Query: Carrie Coon plays Margo Dunne in a 2014 film set in what state? 1. Identify that the question asks
+  Gold Answer: Missouri
+  Retrieved Titles: ['Carrie Coon', 'Carrie Coon', 'Carrie (2013 film)', 'Carrie (2013 film)', 'Cooties (film)']
+样本122:
+  Query: Who gave the mother of Alberic II of Spoleto the title "patricia" of Rome? 1. **Identify the core question**: We
+  Gold Answer: Pope John X
+  Retrieved Titles: ['Alberic II of Spoleto', 'Lucius Marcius Philippus (consul 56 BC)', 'Marcus Livius Drusus Claudianus', 'Pomponia Graecina', 'Iullus Antonius']
+样本123:
+  Query: The Lisbon Traviata revolves around fans of the soprano who was of what nationality? 1. **Identify the core subject**: The
+  Gold Answer: Greek-American
+  Retrieved Titles: ['The Lisbon Traviata', 'Becoming Traviata', 'Silvio Dante', 'The Sopranos', 'Sylvie Valayre']
+样本124:
+  Query:  New Hampshire Northcoast Corporation interchanges cars with which holding company of Class II regional railroads? if you were to answer this
+  Gold Answer: Pan Am Railways
+  Retrieved Titles: ['New Hampshire Northcoast Corporation', 'Portsmouth, Great Falls and Conway Railroad', 'Portsmouth, Great Falls and Conway Railroad', 'Pan Am Railways', 'Northern Transportation Company']
+样本125:
+  Query: What was Muammar Mohammed Abu Minyar Gaddafi's title during the Libyan Civil War? **First,**, I need to verify what
+  Gold Answer: "Brotherly Leader" of the Great Socialist People's Libyan Arab Jamahiriya
+  Retrieved Titles: ['Muammar Gaddafi', 'Al-Saadi Gaddafi', 'Libyan Civil War (2011–present)', 'Ahmed al-Gaddafi al-Qahsi', 'Slavery in Libya']
+样本126:
+  Query: What bird of prey can be found around Brackendale? 1. **Identify the specific location**: The
+  Gold Answer: The bald eagle
+  Retrieved Titles: ['List of birds of Wales', 'Brahminy kite', 'Borbo micans', 'Ascocotyle pindoramensis', 'Fortrose']
+样本127:
+  Query: Who has a wider scope of profession, Christopher Guest or  Roman Karmen? 首先，查看所有提供的文档中是否有提到“Roman Karmen”。用户给出的文档
+  Gold Answer: Christopher Haden-Guest
+  Retrieved Titles: ['Alice König', 'Edward Kavanagh (Australian politician)', 'Kaare Klint', 'Kashinath Pandit', 'John Kavanagh (actor)']
+样本128:
+  Query: Francisco Mela performed with which American Jazz bassist and singer born in 1984 ? Michael Formanek: born in 1958
+  Gold Answer: Esperanza Spalding
+  Retrieved Titles: ['Michael Formanek', 'Ronald Shannon Jackson', 'Chocolate Williams', 'Duffy Jackson', 'Michael Colina']
+样本129:
+  Query: What did the screewriter for a 2013 psychological thriller film directed by Denis Villeneuve get a Goya Award nomination for Best Adapted Screenplay at the 27th Goya Awards for?  Javier Gull
+  Gold Answer: "Invader (Invasor)"
+  Retrieved Titles: ['Goya Award for Best Adapted Screenplay', 'Javier Gullón', 'Goya Award for Best Original Screenplay', 'Goya Award for Best European Film', 'Goya Award for Best Fictional Short Film']
+样本130:
+  Query: Which American film director and actor famous for his role as Donny "The Bear Jew" Donowitz wrote the 2012 film "The Man with the Iron Fists"? The Man with the coals
+  Gold Answer: Eli Roth
+  Retrieved Titles: ['The Man with the Iron Fists', 'The Man with the Iron Fists (soundtrack)', 'The Man with the Iron Fists 2', 'Howard Drossin', 'Kurt Gerron']
+样本131:
+  Query: Are Centaurium and Dacrydium both genuses of plant species? I have read the following documents:
+  Gold Answer: yes
+  Retrieved Titles: ['Centaurea', 'Centaurium pulchellum', 'Zeltnera', 'Zeltnera', 'Zeltnera']
+样本132:
+  Query: Kasper Peter Schmeichel is the son of a professional footballer who was voted what in 1992 and 1993? The question asks about Kasper Schmeichest's
+  Gold Answer: IFFHS World's Best Goalkeeper
+  Retrieved Titles: ['Kasper Schmeichel', 'Kasper Schmeichel', 'Kasper Schmeichel', 'Peter Schmeichel', 'Peter Schmeichel']
+样本133:
+  Query: The chorus of "On the Radio" contains references to the song "November Rain" whose band's lead singer is? 1. **Identify the connection between "On
+  Gold Answer: Axl Rose
+  Retrieved Titles: ['On the Radio (Regina Spektor song)', 'November Rain', 'Carolina Rain', 'Raindancer', 'Music Connection']
+样本134:
+  Query: Between the Riddlers Revenge and the Green Lantern, which stand-up roller coaster stands tallest? • *The Riddler's Revenge*: 156 ft
+  Gold Answer: The Riddler's Revenge
+  Retrieved Titles: ['Green Lantern (Six Flags Great Adventure)', 'Green Lantern (Six Flags Great Adventure)', "The Riddler's Revenge", "The Riddler's Revenge", 'Green Lantern Coaster']
+样本135:
+  Query: What is a Southern European island country that was home to an airline pilot who flew the CASA-212-200 Aviocar before retiring in 2008 for health reasons?  1. Identify the conne Okay, let
+  Gold Answer: Malta
+  Retrieved Titles: ['Mark Vella Tomlin', 'Bolinao 52', 'Inter Island Airways', 'Inter Island Airways', 'Inter Island Airways']
+样本136:
+  Query: Deckers Creek is a tributary, and its beginning in the west is named after? Do you think there's another possible
+  Gold Answer: Richard Arthur
+  Retrieved Titles: ['Deckers Creek', 'Deckers Creek', 'Deckers Creek Trail', 'Deckers Creek Trail', 'Upper Deckers Creek Wildlife Management Area']
+样本137:
+  Query: Ross Pople worked with this French dominant figure of the post-war classical music world. From the given context, what should
+  Gold Answer: Pierre Louis Joseph Boulez
+  Retrieved Titles: ['Ross Pople', 'Ross Pople', 'Pierre Boulez', 'Classical music', 'Maurice Ravel']
+样本138:
+  Query: Which American actor tries to make his long distance relationship with Priya work in "The Infestation Hypothesis"   1. **Identify the relevant document**: The
+  Gold Answer: John Mark Galecki
+  Retrieved Titles: ['Diphan', 'The Infestation Hypothesis', 'Mohammad-Reza Foroutan', 'Mohammad-Reza Foroutan', 'Pravda (play)']
+样本139:
+  Query: When was the English-born South Australian brewer whose brewery was amalgamated with W. K. Simms's West End Brewery. born  Sir Edwin Thomas Smith
+  Gold Answer: 6 April 1830
+  Retrieved Titles: ['Edwin Thomas Smith', 'South Australian Brewing Company', 'W. H. Clark (brewer)', 'Ruddles Brewery', 'Boston Beer Company']
+样本140:
+  Query: The player also known as  "O Fenômeno" is responsible for popularized a soccer move first reported to be used by what player? 2. **Analyze given documents**:
+  Gold Answer: Law Adam
+  Retrieved Titles: ['Step over', 'Step over', "Fabián O'Neill", 'Jheimy', 'Diego Luz']
+样本141:
+  Query: Which was built first Woolworth Building or 1 New York Plaza? just what specific location does the
+  Gold Answer: Woolworth Building
+  Retrieved Titles: ['Woolworth Building', 'F. W. Woolworth Building (Watertown, New York)', '1 New York Plaza', 'Transportation Building', 'F. W. Woolworth Company']
+样本142:
+  Query: Are both Adolfo Bioy Casares and James Norman Hall Argentinian authors? 1. Determine if each author's nationality
+  Gold Answer: no
+  Retrieved Titles: ['Adolfo Bioy Casares', 'List of Colombian writers', 'Álvaro Cepeda Samudio', 'The Invention of Morel', 'La aventura de un fotógrafo en La Plata']
+样本143:
+  Query: Are David O. Russell and Tony Gatlif from the same country? 1. Identify the names mentioned in
+  Gold Answer: no
+  Retrieved Titles: ['Bill Russell (lyricist)', 'Steve Mahre', 'David Pelletier', 'Mat Dan', 'David Tomaszewski']
+样本144:
+  Query: How tall was one of Drew Barry's brothers?  **What specific height information about Drew
+  Gold Answer: 6 ft
+  Retrieved Titles: ['Drew Barry', 'Drew Barry', 'Barry Kooser', 'Brent Barry', 'Bill Scripture']
+样本145:
+  Query: When did the the Antonine who was known as the third of the five good emperors live? 1. **Identify the relevant person**: We
+  Gold Answer: 24 January 76 – 10 July 138
+  Retrieved Titles: ['Antoninus Pius', 'Marcus Aurelius', 'Marcus Aurelius (disambiguation)', 'Byzantine Empire under the Doukas dynasty', 'Gnaeus Domitius Ahenobarbus (consul 32)']
+样本146:
+  Query: Tamanchey is a comedy film that starred the actress who works in what type of films? 1. Identify the main actors in
+  Gold Answer: Hindi
+  Retrieved Titles: ['Tamanchey', 'Tamanna (1942 film)', 'Mahendra Sandhu', 'Andrea Palma (actress)', 'Moushumi Chatterjee']
+样本147:
+  Query: What was the name of the commander who captured all of the French ships that varied in size? **Step 1: Identify what is being
+  Gold Answer: Joshua Rowley
+  Retrieved Titles: ['Capture of the Vigilant', 'Action of 7 October 1795', 'Louis-Jean-Nicolas Lejoille', 'French battleship Paris', 'Battle of Texel (1694)']
+样本148:
+  Query: What american actress/singer born in 1956 recorded the song Something there for beauty and the beast? 2. The movie associated with the
+  Gold Answer: Donna Paige Helmintoller
+  Retrieved Titles: ['Something There', "Paige O'Hara", 'Beauty and the Beast (1946 film)', "Belle's Magical World", 'Evermore (Beauty and the Beast song)']
+样本149:
+  Query: In what year was the Commander of the second human spaceflight mission in the United States Apollo space program born? n/a
+  Gold Answer: 1928
+  Retrieved Titles: ['Apollo 9', 'Apollo 9', 'Apollo 8', 'Apollo 8', 'Apollo 8']
+样本150:
+  Query: What city is the flying component of the United States Air Force 432d Wing stationed in what is the home base or
+  Gold Answer: Clark County
+  Retrieved Titles: ['432d Wing', '432d Operations Group', '437th Operations Group', '43d Aeromedical Evacuation Squadron', '413th Flight Test Squadron']
+样本151:
+  Query: Who was most well-known as a radio personality and disc jockey, John Garabedian or Charles A. Agemian? when you have two names, it’s
+  Gold Answer: John H. Garabedian
+  Retrieved Titles: ['John Garabedian', 'Radio personality', 'Radio personality', 'Radio personality', 'Don Sherwood (DJ)']
+样本152:
+  Query: Which has more species, Lysiloma or Hydrocotyle umbellata? 2. **Analyze provided context**:
+  Gold Answer: Lysiloma
+  Retrieved Titles: ['Hydrocotyle umbellata', 'Casuarinaceae', 'Dactylis', 'Aldrovanda vesiculosa', 'Aldrovanda vesiculosa']
+样本153:
+  Query: Both the 2010–11 UEFA Champions League knockout phase  and 011 UEFA Champions League Final were held at what London stadium? First, looking at the provided documents:
+  Gold Answer: Wembley
+  Retrieved Titles: ['2010–11 UEFA Champions League knockout phase', '2010–11 UEFA Europa League knockout phase', '2016–17 UEFA Champions League knockout phase', '2016–17 UEFA Champions League knockout phase', '2017–18 UEFA Champions League knockout phase']
+样本154:
+  Query: George Reed was, along with which Drake University player, one of the greatest running backs in CFL history? **Hint:** The answer lies in understanding
+  Gold Answer: Johnny D. Bright
+  Retrieved Titles: ['George Reed (Canadian football)', 'Tony Reed', 'Ted Greene (American football)', 'Ed Reed', 'Amariah Farrow']
+样本155:
+  Query: What day in November is Southpark most congested? A: No relevant information
+  Gold Answer: the fourth Thursday
+  Retrieved Titles: ['Holiday Special (South Park)', 'SouthPark Mall (Charlotte, North Carolina)', 'T in the Park', 'White People Renovating Houses', 'Grounded Vindaloop']
+样本156:
+  Query: What song written by Jimmy Webb inspired the name of a supergroup including Johnny Cash? 1. Identify the song that inspired
+  Gold Answer: Highwayman
+  Retrieved Titles: ['Tunesmith: The Songs of Jimmy Webb', 'Highwayman (song)', "Hello, I'm Johnny Cash", 'El Mirage (album)', 'The Johnny Cash Family Christmas']
+样本157:
+  Query: Which author found inspiration in their career prior to writing, Hart Crane or John le Carré? To determine whether Hart Crane was
+  Gold Answer: John le Carré
+  Retrieved Titles: ['John le Carré: The Biography', 'John le Carré: The Biography', 'John le Carré: The Biography', 'Vaughan Hart', 'Barrie &amp; Jenkins']
+样本158:
+  Query: Which Houston, TX based store did Paul Traub participate in the bankruptcy hearing? 1. Identify what type of entity
+  Gold Answer: Stage Stores
+  Retrieved Titles: ['Fuller case', 'Martin Mahoney', 'John A. Brown (department store)', 'Tracinda', 'Tracinda']
+样本159:
+  Query: What supernatural horror film did Miles Doleac have a role in? one word or short phrase that
+  Gold Answer: Sleepy Hollow
+  Retrieved Titles: ['Night of Terror', 'Nightmares in Red, White and Blue', "Don't Kill It", 'Terror Firmer', 'Lucky Miles']
+样本160:
+  Query: What part of Australia is Alice River and Rupertswood in? first, note that both names appear
+  Gold Answer: Victoria
+  Retrieved Titles: ['Alice River, Queensland', 'Alice River (Far North Queensland)', 'Alice River (Barcoo River)', 'Todd River', 'Dixie, Queensland']
+样本161:
+  Query: Which band has released more albums with their original members, Sick Puppies or Third Eye Blind? Okay,  Okay, let
+  Gold Answer: Sick Puppies
+  Retrieved Titles: ['Third Eye Blind', 'Blue (Third Eye Blind album)', 'Sick Puppies', 'Third Eye Blind (album)', 'Sick Puppies EP']
+样本162:
+  Query: What state is home to the Lake Wobegon Trails and the recording location for the live radio show "A Prairie Home Companion"? 3. **Check for contradictions or ambiguities**
+  Gold Answer: Minnesota
+  Retrieved Titles: ['Lake Wobegon Trails', 'Lake Wobegon', 'A Prairie Home Companion', 'Live Wire Radio', 'Garrison Keillor']
+样本163:
+  Query: Which of the following has released ten solo albums: Kristin Hersh or Mike Patton? Kristin Hersh:
+  Gold Answer: Kristin Hersh
+  Retrieved Titles: ['Kristin Hersh', 'Strange Angels (Kristin Hersh album)', 'Sky Motel', 'The Grotto (album)', 'In Shock']
+样本164:
+  Query: Are Benjamin Britten and Béla Bartók from the same country? Step 2: Compare the national
+  Gold Answer: no
+  Retrieved Titles: ['List of compositions by Béla Bartók', 'List of compositions by Béla Bartók', 'List of string quartets by Béla Bartók', 'List of string quartets by Béla Bartók', 'List of string quartets by Béla Bartók']
+样本165:
+  Query: What is the nickname of Stephan Lichtsteiner that refers to the character from the 1994 American comedy-drama film based on the novel by Winston Groom? 1. IdentBaysemation.com, 2. Google Scholar, 3
+  Gold Answer: Forrest Gump
+  Retrieved Titles: ['Herman Kahn', 'Eisenstein (film)', 'Wilsberg', 'Benn F. Reyes', 'Eugene Brody']
+样本166:
+  Query: Rock Springs is a collection of short stories by an author born in what year? Determine the birth year of the
+  Gold Answer: 1944
+  Retrieved Titles: ['Rock Springs (short story collection)', 'The Spring', 'Rock Springs, Wyoming', 'Richard Ford', 'Tales of the Jazz Age']
+样本167:
+  Query: Which of the teams that Sun-woo Kim played on never won a division title? 1. Identify which teams Sun-won with
+  Gold Answer: Colorado Rockies
+  Retrieved Titles: ['Southern Sundevils', "Northern Sun Men's Basketball Tournament", '1994 Grand Prix Hassan II – Doubles', 'Kim Dotson', "1956 NAIA Division I Men's Basketball Tournament"]
+样本168:
+  Query: Which  French ace pilot and adventurer fly L'Oiseau Blanc Therefore, I need to search for
+  Gold Answer: Charles Eugène
+  Retrieved Titles: ["L'Oiseau Blanc", 'Gervais Raoul Lufbery', 'Gervais Raoul Lufbery', 'Paul Sauvage (aviator)', 'Jean-Loup Chrétien']
+样本169:
+  Query: Who is considered the more well known author, Roger Angell or Harry Stephen Keeler? Okay, let's tackle this question step
+  Gold Answer: Roger Angell
+  Retrieved Titles: ['Harry Stephen Keeler', 'Harry Stephen Keeler', 'Roger Angell', 'Roger Woolhouse', 'Jonathan Valin']
+样本170:
+  Query: What collegiate division does the team coached by P.W. Underwood play in? 
+  Gold Answer: Division I
+  Retrieved Titles: ['List of MCLA teams', 'Randy Mazey', 'Catholic University Cardinals football', '2013 Florida Atlantic Owls baseball team', "Pacific Tigers men's basketball"]
+样本171:
+  Query: Panic! at the Disco released their 5th studio album on what date? 2. 2008 - "P
+  Gold Answer: January 15, 2016
+  Retrieved Titles: ['Panic! at the Disco discography', 'List of Panic! at the Disco band members', 'List of Panic! at the Disco band members', 'Panic! at the Disco', 'Panic! at the Disco']
+样本172:
+  Query: During which years was the model of car, featured on the cover of Earth's "Pentastar: In the Style of Demons" manufactured? 1. **Identify the key subject**: We
+  Gold Answer: 1964 to 1974
+  Retrieved Titles: ['Pentastar: In the Style of Demons', 'Pentastar: In the Style of Demons', 'EVcort', 'A Car-Tune Portrait', 'Volvo Concept You']
+样本173:
+  Query: Where is the location of Liberty Square park in Disneyland California? 1. To determine the park where
+  Gold Answer: Anaheim
+  Retrieved Titles: ['Liberty Square (Magic Kingdom)', 'Liberty Square (Magic Kingdom)', 'Disney California Adventure', 'Disneyland Park (Paris)', 'Hong Kong Disneyland']
+样本174:
+  Query: What subsidiary of the largest airline of the Republic of China (Taiwan) has a main hub at Taichung Airport? China Airlines, so the subsidiary must
+  Gold Answer: Mandarin Airlines
+  Retrieved Titles: ['China Airlines', 'China Airlines', 'Mandarin Airlines', 'Taichung International Airport', 'Kunming Changshui International Airport']
+样本175:
+  Query: Which opera has more acts, La jolie fille de Perth or Mitridate, re di Ponto? 不了，我中文回答可以吗？ 请用中文继续。
+  Gold Answer: La jolie fille de Perth "(The Fair Maid of Perth)" is an opera in four acts
+  Retrieved Titles: ['Mitridate, re di Ponto', 'La jolie fille de Perth', 'La reine Fiammette', 'Robin Guarino', 'Robin Guarino']
+样本176:
+  Query: Which singer is younger, Terri Nunn or Sonya Scarlet?  just one sentence explaining how you'd
+  Gold Answer: Sonya Scarlet
+  Retrieved Titles: ['Sonya Scarlet', 'Cher', 'Moment of Truth (Terri Nunn album)', 'Edele Lynch', 'Scarlet Pleasure']
+样本177:
+  Query: What position does Kyle York hold at the internet performance management company Dyn? 1. Identify the entity mentioned in
+  Gold Answer: Chief Strategy Officer
+  Retrieved Titles: ['Kyle York (entrepreneur)', 'Kyle York (entrepreneur)', 'Dyn (company)', 'Internet Advisor', 'Dynatrace']
+样本178:
+  Query: At what height does State Route 160 start? To determine the starting elevation or
+  Gold Answer: 4145 ft
+  Retrieved Titles: ['Maine State Route 160', 'Washington State Route 160', 'Ohio State Route 160', 'Virginia State Route 160', 'U.S. Route 219']
+样本179:
+  Query: What town's geographic feature is the battle James Swan was twice wounded at named for? A reference to a battle where
+  Gold Answer: Charlestown, Massachusetts
+  Retrieved Titles: ["Swan's Island, Maine", 'Swanage', 'Swan Coastal Plain', 'HMS Swan (1767)', 'James Swan (financier)']
+样本180:
+  Query: What type of community does Bob Hope Airport and Boeing Field have in common? First, I'll recall the provided documents:
+  Gold Answer: public
+  Retrieved Titles: ['Bob Hope Airport', 'Boeing Field', 'Topeka Regional Airport', 'Proposed Chicago south suburban airport', 'Burbank–Bob Hope Airport station']
+样本181:
+  Query: Grown-Ups starred the actor who was best known for which role on  "'Allo 'Allo!"? 1. **Identify the core question**: We
+  Gold Answer: Captain Hans Geering
+  Retrieved Titles: ['Guy Siner', 'Richard Gibson', 'Jack Haig', 'John D. Collins', 'Nicholas Frankau']
+样本182:
+  Query: Which acter/director is known for depicting the Russian working class life and directed a film that won an Academy Award in 1981? 3. **Check
+  Gold Answer: Vladimir Menshov
+  Retrieved Titles: ['Vladimir Menshov', 'Lev Kuleshov', 'Aleksandr Ivanovsky', 'Cinema of Russia', 'Ilya Khrzhanovsky']
+样本183:
+  Query: Mawson  is an electoral district that includes the wine regional around which town 35 km south of Adelaide? Okay, let's tackle this question step
+  Gold Answer: McLaren Vale
+  Retrieved Titles: ['Electoral district of Mawson', 'Electoral district of Adelaide', 'Electoral district of Port Adelaide', 'Division of Kingston', 'Division of Makin']
+样本184:
+  Query: Bill Bryson grew up in a city that is the seat of which county ? A small town in the Iowa
+  Gold Answer: Polk County
+  Retrieved Titles: ['Bill Bryson Sr.', 'Michael Bryson', 'The Lost Continent: Travels in Small-Town America', 'Iowa Territory', 'Thomas Bowman (Iowa politician)']
+样本185:
+  Query: Who was President of the United States when Jennifer Hunt served under Secretary of Labor Seth Harris? 1. Identify that Jennifer Hunt served
+  Gold Answer: Barack Obama
+  Retrieved Titles: ['Jennifer Hunt', 'Seth Harris', 'Charles A. Hunt', 'Susan Whitson', 'Evelyn S. Lieberman']
+样本186:
+  Query: What is the name of the American author, songwriter, educator, lawyer, diplomat, civil rights activist and husband to Grace Nail Johnson who was the first African American executive secretary of the National Association for the Advancement of Colored People (NAACP)? 1. Identify the core question and
+  Gold Answer: James Weldon Johnson
+  Retrieved Titles: ['James Weldon Johnson', 'W. E. B. Du Bois', 'T. R. M. Howard', 'James Orange', 'William J. White (journalist)']
+样本187:
+  Query: In what month was the relief first officer of the flight that crashed on its way to Cairo with a stop in New York Born? **What specific date or time reference
+  Gold Answer: February
+  Retrieved Titles: ['EgyptAir Flight 990', 'American Airlines Flight 28', 'American Airlines Flight 587', 'Betty Ong', 'American Airlines Flight 11']
+样本188:
+  Query: The Tennessee Volunteers football team plays as a member for a conference in what city? From the documents provided, it is
+  Gold Answer: Birmingham, Alabama
+  Retrieved Titles: ['1891 Tennessee Volunteers football team', '1891 Tennessee Volunteers football team', '1992 Tennessee Volunteers football team', '1899 Tennessee Volunteers football team', '1899 Tennessee Volunteers football team']
+样本189:
+  Query: How did Pre's Trail's namesake die? Determine what event or action led
+  Gold Answer: in an automobile accident
+  Retrieved Titles: ["Pre's Trail", 'Register Cliff', 'Register Cliff', 'Register Cliff', 'Madonna of the Trail']
+样本190:
+  Query: The largest lake in New Hampshire sits how many vertical feet lower than Lake Kanasatka? Okay, let's tackle this question step
+  Gold Answer: nine vertical feet
+  Retrieved Titles: ['Lake Kanasatka', 'Profile Lake', 'Newfound Lake', 'Great East Lake', 'Squam Lake']
+样本191:
+  Query: What year was the midfielder who shot the winning goal in the 2009 DFB-Pokal Final born? 1. Identify that the winning goal
+  Gold Answer: 1988
+  Retrieved Titles: ['2009 DFB-Pokal Final', '2006 DFB-Pokal Final', '2007 DFB-Pokal Final', '2008–09 DFB-Pokal (women)', '1973 DFB-Pokal Final']
+样本192:
+  Query: Who was born first, Grigory Margulis or Leonid Levin? Is there any mention of Leonid
+  Gold Answer: Gregori Aleksandrovich Margulis
+  Retrieved Titles: ['Leonid Alexandrovich Voskresenskiy', 'Muslim Magomayev (composer)', 'Mikhail Rostovtsev (actor)', 'Alex Mendelssohn', 'Benjamin Apthorp Gould']
+样本193:
+  Query: David Thewlis had a performance in the film Macbeth as which father of Malcolm and Donalbain? 2. **Analyze provided documents**:
+  Gold Answer: King Duncan
+  Retrieved Titles: ['Donalbain (Macbeth)', 'Malcolm (Macbeth)', 'King Duncan', 'King Duncan', 'Macbeth']
+样本194:
+  Query: Who was born first, Juan Rulfo or John le Carré? First, let's summarize the relevant information:
+  Gold Answer: Juan Rulfo
+  Retrieved Titles: ['John le Carré: The Biography', 'John le Carré: The Biography', 'John le Carré: The Biography', 'Carlos Salazar Herrera', 'Thomas Carr (publisher)']
+样本195:
+  Query: Viscount Yamaji Motoharu was a general in the early Imperial Japanese Army which belonged to which Empire? 1. **Identify the context**: We know
+  Gold Answer: Empire of Japan
+  Retrieved Titles: ['Yamaji Motoharu', 'Ogawa Mataji', 'Takashima Tomonosuke', 'Imperial Japanese Army', 'Imperial Japanese Army']
+样本196:
+  Query: Igor Naming Agency named a resort located where? one that combines both documents
+  Gold Answer: Las Vegas Strip
+  Retrieved Titles: ['Igor Naming Agency', 'Igor Naming Agency', 'Dual naming', 'Glacier Park Company', 'GEOnet Names Server']
+样本197:
+  Query: Mía Maestro had a role in the 2002 biopic directed by whom? 1. Identify that Mía Maestro is
+  Gold Answer: Julie Taymor
+  Retrieved Titles: ['Mía Maestro', 'Maestro (2014 film)', 'Jackie Lou Blanco', 'Nadia Santos', '2002 Cannes Film Festival']
+样本198:
+  Query: What other jobs did the actress Olivia Munn from Mortdecai have? 1. **Identify the core question**: The
+  Gold Answer: model
+  Retrieved Titles: ['Olivia Munn', 'Solveig Dommartin', 'Jane Wymark', 'Jane Wymark', 'The Casino Job']
+样本199:
+  Query: Which came to market first, "Hey Pa! There's a Goat on the Roof" or "Poleconomy" 1. Identify what each document mentions
+  Gold Answer: Hey Pa! There's a Goat on the Roof
+  Retrieved Titles: ["Hey Pa! There's a Goat on the Roof", 'See You at the Pole', 'Tree (installation)', 'Mountain goat', 'First Church']
+样本200:
+  Query: Who is the Chief Executive Officer of the corporation that owns Space Dev? 1. **Identify the question**: We are
+  Gold Answer: Fatih Ozmen
+  Retrieved Titles: ['Director General of the European Space Agency', "President's Management Advisory Board", 'Mike Lunsford', 'Mike Lunsford', 'John M. Grunsfeld']

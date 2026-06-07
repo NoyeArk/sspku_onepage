@@ -1,0 +1,68 @@
+2026-05-23 08:38:06,288 [INFO] ============================================================
+2026-05-23 08:38:06,288 [INFO] 实验启动时间: 2026-05-23 08:38:06.288516
+2026-05-23 08:38:06,288 [INFO] 后端: vLLM (continuous batching)
+2026-05-23 08:38:06,288 [INFO] 用户名: zhouqilei
+2026-05-23 08:38:06,288 [INFO] 模型路径: /mnt/workspace/zhouqilei/openPangu-Embedded-7B-V1.1/
+2026-05-23 08:38:06,288 [INFO] 数据路径: /mnt/workspace/zhouqilei/experiment_openPangu/experiment_openPangu1B_RAG/hotpot_qa/hotpot_test_v1.json
+2026-05-23 08:38:06,288 [INFO] Tensor Parallel Size: 1
+2026-05-23 08:38:06,289 [INFO] GPU Memory Utilization: 0.9
+2026-05-23 08:38:06,289 [INFO] Thinking 模式: False
+2026-05-23 08:38:06,289 [INFO] ============================================================
+2026-05-23 08:38:06,289 [INFO] 正在加载 tokenizer from /mnt/workspace/zhouqilei/openPangu-Embedded-7B-V1.1/ ...
+2026-05-23 08:38:07,664 [INFO] Tokenizer 加载完成，vocab_size=153376
+2026-05-23 08:38:07,664 [INFO] 正在初始化 vLLM 引擎（首次加载约需 30-60 秒）...
+2026-05-23 08:41:43,636 [INFO] vLLM 引擎初始化完成，耗时 216.0s
+2026-05-23 08:41:43,637 [INFO] 正在加载数据: /mnt/workspace/zhouqilei/experiment_openPangu/experiment_openPangu1B_RAG/hotpot_qa/hotpot_test_v1.json
+2026-05-23 08:41:43,640 [INFO] 加载完成，共 200 条数据
+2026-05-23 08:41:43,640 [INFO] 正在构建 200 条 Prompt ...
+2026-05-23 08:41:43,677 [INFO] Prompt 构建完成，耗时 0.0s
+2026-05-23 08:41:43,678 [INFO] 开始 vLLM 批量推理，共 200 条 ...
+2026-05-23 08:41:51,583 [INFO] vLLM 推理完成！
+2026-05-23 08:41:51,583 [INFO]   总耗时: 7.9s
+2026-05-23 08:41:51,583 [INFO]   吞吐量: 25.30 条/秒
+2026-05-23 08:41:51,584 [INFO]   平均每条约: 40 ms
+2026-05-23 08:41:51,584 [INFO] 正在提取答案 ...
+2026-05-23 08:41:51,585 [INFO] 
+--- 样例 1 ---
+2026-05-23 08:41:51,585 [INFO]   Q: In what city does the most successful American and international five-and-dime b...
+2026-05-23 08:41:51,586 [INFO]   Gold: Watertown, New York
+2026-05-23 08:41:51,586 [INFO]   Pred: The most successful American and international five-and-dime chain, Safeway, has a historic building in **San Jose, California**. The original Safeway store on First Street was opened in 1931 and is a landmark in the area.
+2026-05-23 08:41:51,586 [INFO]   Raw :  [unused16] [unused17] The most successful American and international five-and-dime chain, Safeway, has a historic building in **San Jose, California**. The original Safeway store on First Street was ...
+2026-05-23 08:41:51,586 [INFO] 
+--- 样例 2 ---
+2026-05-23 08:41:51,586 [INFO]   Q: Where did the designer of the Van de Graaff generator teach at?...
+2026-05-23 08:41:51,586 [INFO]   Gold: Princeton University and Massachusetts Institute of Technology
+2026-05-23 08:41:51,586 [INFO]   Pred: The designer of the Van de Graaff generator was Alexander F. Graham, and he taught at the University of California, Berkeley.
+2026-05-23 08:41:51,586 [INFO]   Raw :  [unused16] [unused17] The designer of the Van de Graaff generator was Alexander F. Graham, and he taught at the University of California, Berkeley....
+2026-05-23 08:41:51,586 [INFO] 
+--- 样例 3 ---
+2026-05-23 08:41:51,586 [INFO]   Q: Ælfgifu of Exeter and Ælfgifu of Shaftesbury are both known for being what?...
+2026-05-23 08:41:51,586 [INFO]   Gold: saint
+2026-05-23 08:41:51,586 [INFO]   Pred: Ælfgifu of Exeter and Ælfgifu of Shaftesbury were nuns who served as regents or regents for King Richard II of England.
+2026-05-23 08:41:51,586 [INFO]   Raw :  [unused16] [unused17] Ælfgifu of Exeter and Ælfgifu of Shaftesbury were nuns who served as regents or regents for King Richard II of England....
+2026-05-23 08:41:51,587 [INFO] 
+--- 样例 4 ---
+2026-05-23 08:41:51,587 [INFO]   Q: Anthony Avent played basketball fo a High School that is located in a city appro...
+2026-05-23 08:41:51,587 [INFO]   Gold: lower Manhattan
+2026-05-23 08:41:51,587 [INFO]   Pred: Anthony Avent played basketball for DePittsburgh High School, which is located in a city approximately 8 miles west of Pittsburgh, Pennsylvania.
+2026-05-23 08:41:51,587 [INFO]   Raw :  [unused16] [unused17] Anthony Avent played basketball for DePittsburgh High School, which is located in a city approximately 8 miles west of Pittsburgh, Pennsylvania....
+2026-05-23 08:41:51,587 [INFO] 
+--- 样例 5 ---
+2026-05-23 08:41:51,587 [INFO]   Q: Which nationality is the international footballer, born 20 March 1984, who made ...
+2026-05-23 08:41:51,587 [INFO]   Gold: Spanish
+2026-05-23 08:41:51,587 [INFO]   Pred: Answer: **Guinean**.
+2026-05-23 08:41:51,587 [INFO]   Raw :  [unused16] [unused17] The international footballer you're referring to is **David Villafranco**, but he was not born in 1984. The player who matches the description—born on 20 March 1984, made his La...
+2026-05-23 08:41:51,593 [INFO] 
+预测结果已保存至: /mnt/workspace/zhouqilei/experiment_openPangu/openPangu7B-Prompt/prompt_output_v3_0523/predictions_prompt.json
+2026-05-23 08:41:51,593 [INFO] 
+============================================================
+2026-05-23 08:41:51,593 [INFO] 开始评测...
+2026-05-23 08:41:51,614 [INFO] [Part1-Prompt] EM=1.00%  F1=7.06%  (n=200)
+2026-05-23 08:41:51,614 [INFO] 
+--- 分题型评测 ---
+2026-05-23 08:41:51,630 [INFO] [Part1-Prompt-bridge] EM=0.62%  F1=5.31%  (n=160)
+2026-05-23 08:41:51,635 [INFO] [Part1-Prompt-comparison] EM=2.50%  F1=14.08%  (n=40)
+2026-05-23 08:41:51,635 [INFO] 评测结果已保存至: /mnt/workspace/zhouqilei/experiment_openPangu/openPangu7B-Prompt/prompt_output_v3_0523/results_prompt.json
+2026-05-23 08:41:51,635 [INFO] ============================================================
+2026-05-23 08:41:51,635 [INFO] 实验完成！
+2026-05-23 08:41:51,635 [INFO] ============================================================
